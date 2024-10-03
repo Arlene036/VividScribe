@@ -1,4 +1,4 @@
-# MMML-VideoCaptioning
+# VividScribe
 
 
 ## Original Dataset
