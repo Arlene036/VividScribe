@@ -4,7 +4,7 @@ import sys
 import yt_dlp
 import subprocess
 
-def check_and_download(video_id, output_dir):
+def check_and_download(video_id, output_dir, cookie_file=None):
     parts = video_id.split('_')
     youtube_id = '_'.join(parts[0:-2])
 
@@ -16,9 +16,25 @@ def check_and_download(video_id, output_dir):
     end_time = float(parts[-1])
     youtube_url = f'https://www.youtube.com/watch?v={youtube_id}'
     
-    ydl_opts = {
-        'outtmpl': f'{output_dir}/{youtube_id}.%(ext)s',
-    }
+    if cookie_file:
+        ydl_opts = {
+            'format': 'mp4',  
+            'outtmpl': f'{output_dir}/{youtube_id}.%(ext)s',
+            'postprocessors': [{
+                'key': 'FFmpegVideoConvertor',
+                'preferedformat': 'mp4',  
+            }],
+            'cookiefile': cookie_file
+        }
+    else:
+        ydl_opts = {
+            'format': 'mp4',  
+            'outtmpl': f'{output_dir}/{youtube_id}.%(ext)s',
+            'postprocessors': [{
+                'key': 'FFmpegVideoConvertor',
+                'preferedformat': 'mp4',  
+            }]
+        }
 
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
@@ -33,7 +49,7 @@ def check_and_download(video_id, output_dir):
         duration = end_time - start_time
         
         subprocess.run([
-            'ffmpeg', '-i', input_file, '-ss', str(start_time), '-t', str(duration), '-c:v', 'copy', '-c:a', 'copy', output_file
+            'ffmpeg', '-ss', str(start_time), '-i', input_file, '-t', str(duration), '-c', 'copy', output_file
         ])
         
         print(f'Video {output_file} downloaded and trimmed successfully.')
@@ -43,7 +59,7 @@ def check_and_download(video_id, output_dir):
         print(f'Video {video_id} fails downloading: {e}')
         return False
 
-def main(json_file, output_dir):
+def main(json_file, output_dir, cookie_file=None):
     with open(json_file) as file:
         sample_data = json.load(file)
 
@@ -52,15 +68,17 @@ def main(json_file, output_dir):
     
     print('>>>>> Start downloading video clips <<<<<')
     for video in sample_data:
-        check_and_download(video['video_id'], output_dir)
+        check_and_download(video['video_id'], output_dir, cookie_file)
     print('>>>>> Finish downloading video clips <<<<<')
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python script.py <json_file> <output_dir>")
+    if len(sys.argv) != 3 and len(sys.argv) != 4:
+        print("Usage: python script.py <json_file> <output_dir> [cookie_file]")
         sys.exit(1)
         
     json_file = sys.argv[1]
     output_dir = sys.argv[2]
 
-    main(json_file, output_dir)
+    cookie_file = sys.argv[3] if len(sys.argv) == 4 else None
+
+    main(json_file, output_dir, cookie_file)
