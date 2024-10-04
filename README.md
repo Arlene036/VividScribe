@@ -20,6 +20,8 @@ In summary, 120 video clips were sampled, including:
 
 Sampled json dataset could be see in `data/sample_v_nv_test120_new.json`
 
+Video clips are available at [test120_GoogleDrive](https://drive.google.com/drive/folders/1DOeMn5LxjNFtlSTV5frrLSOHMJ3eNCO_)
+
 ## Download Video Clips
 
 Requirements
