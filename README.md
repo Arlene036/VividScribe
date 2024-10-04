@@ -35,3 +35,25 @@ Download
 ```
 python download_clips.py 'data/sample_v_nv_test120_new.json' 'data/test120'
 ```
+
+## Evaluation
+Before running the evaluation, make sure to prepare the captions in the right json format as below:
+```
+{
+    "annotations": [
+        {
+            "video_id": "video_id1",
+            "caption": "caption1"
+        },
+        {
+            "video_id": "video_id2",
+            "caption": "caption2"
+        },
+        ...
+    ]
+}
+```
+Compute Metrics
+```
+python evaluate.py --generated_cap_path <generated_captions.json> --true_cap_path <true_captions.json> --output_dir <output_results.json>
+```
