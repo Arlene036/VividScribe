@@ -1,1 +1,20 @@
-{"Bleu_1": 20.26, "Bleu_2": 7.73, "Bleu_3": 2.89, "Bleu_4": 1.04, "METEOR": 8.22, "ROUGE_L": 17.14, "CIDEr": 15.13}
+{
+  "verbal": {
+    "Bleu_1": 19.83,
+    "Bleu_2": 7.87,
+    "Bleu_3": 3.04,
+    "Bleu_4": 1.22,
+    "METEOR": 7.74,
+    "ROUGE_L": 17.48,
+    "CIDEr": 10.52
+  },
+  "non-verbal": {
+    "Bleu_1": 19.9,
+    "Bleu_2": 7.17,
+    "Bleu_3": 2.54,
+    "Bleu_4": 0.0,
+    "METEOR": 8.79,
+    "ROUGE_L": 16.8,
+    "CIDEr": 20.53
+  }
+}
