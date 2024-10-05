@@ -12,6 +12,6 @@ unzip raw_video.zip
 rm raw_video.zip
 
 # download and unzip extracted_data.zip
-gdown 1XDJYIDmceBqY-tTKOnuzXWGBIF8uQ5BZ
+gdown 1e8-NMTbTRhSbMTXrsNzEsoyT7vHF-nNI
 unzip extracted_data.zip
 rm extracted_data.zip
