@@ -74,5 +74,5 @@ Before running the evaluation, make sure to prepare the captions in the right js
 ```
 Compute Metrics
 ```
-python evaluate.py --generated_cap_path <generated_captions.json> --true_cap_path <true_captions.json> --output_dir <output_results.json>
+python evaluation/evaluation_caption.py --generated_cap_path <generated_captions.json> --true_cap_path <true_captions.json> --output_dir <output_results.json>
 ```
