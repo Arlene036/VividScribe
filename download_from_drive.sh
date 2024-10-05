@@ -15,3 +15,7 @@ rm raw_video.zip
 gdown 1e8-NMTbTRhSbMTXrsNzEsoyT7vHF-nNI
 unzip extracted_data.zip
 rm extracted_data.zip
+
+cd ..
+gdown 1ye5Qp2Y-PCR6s7t3SRfn7WhCsO2Gm5MA
+unzip vast.zip
