@@ -51,7 +51,7 @@ def extract_thread(video_id):
     if not os.path.exists(video_name):
         return
     probe = ffmpeg.probe(video_name)
-    pipline(video_name, probe, output_path, fps=4, sr=22050, duration_target=10)
+    pipline(video_name, probe, output_path, fps=1, sr=22050, duration_target=10)
 
 
 def extract_all(video_ids, thread_num, start):
