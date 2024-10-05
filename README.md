@@ -22,6 +22,16 @@ Sampled json dataset could be see in `data/sample_v_nv_test120_new.json`
 
 Video clips are available at [test120_GoogleDrive](https://drive.google.com/drive/folders/1DOeMn5LxjNFtlSTV5frrLSOHMJ3eNCO_)
 
+> **Note:** There are four of the clips that cannot be processed by frame and audio wave extractor. They are skipped in the evaluation.
+>
+> p_o6NQX7lmE_0.000_10.000.wav. (no subtitle)
+> 
+> xJ-6ewqMyxY_410.000_420.000.wav. (have subtitle)
+> 
+> niJg7Q1XLyU_50.000_60.000.wav. (no subtitle)
+> 
+> wj-gglKQ3KI_30.000_40.000.wav. (no subtitle)
+
 ## Download Video Clips
 
 Requirements
