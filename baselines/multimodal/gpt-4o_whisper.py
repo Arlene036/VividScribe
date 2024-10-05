@@ -92,7 +92,7 @@ def generate_clip_caption(path):
 
 def generate_audio_transcript(path):
     audio_file= open(path, "rb")
-    transcription = client.audio.transcriptions.create(
+    transcription = client.audio.translations.create(
         model=OPENAI_MODEL_AUDIO, 
         file=audio_file
     )
