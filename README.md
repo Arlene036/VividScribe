@@ -24,15 +24,16 @@ Raw video clips and extracted data are available at [test120_GoogleDrive](https:
 
 > **Note:** There are four of the clips that cannot be processed by frame and audio wave extractor. They are skipped in the evaluation.
 >
-> p_o6NQX7lmE_0.000_10.000.wav. (no subtitle)
+> p_o6NQX7lmE_0.000_10.000.wav (no subtitle)
 > 
-> xJ-6ewqMyxY_410.000_420.000.wav. (have subtitle)
+> xJ-6ewqMyxY_410.000_420.000.wav (have subtitle)
 > 
-> niJg7Q1XLyU_50.000_60.000.wav. (no subtitle)
+> niJg7Q1XLyU_50.000_60.000.wav (no subtitle)
 > 
-> wj-gglKQ3KI_30.000_40.000.wav. (no subtitle)
+> wj-gglKQ3KI_30.000_40.000.wav (no subtitle)
 
-## Download Video Clips
+## Prepare Data
+### Download Video Clips
 
 Requirements
 
