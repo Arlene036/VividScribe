@@ -13,8 +13,8 @@ import subprocess
 
 
 ### change diffenrent datasets
-input_path = 'data/test120/raw_video'
-output_path = 'data/test120/extracted_data'
+input_path = 'data/mix120/raw_video'
+output_path = 'data/mix120/extracted_data'
 data_list = os.listdir(input_path)
 
 def execCmd(cmd):
