@@ -22,7 +22,8 @@ Sampled json dataset could be seen in `data/test120/sample_v_nv_test120_new.json
 
 Raw video clips and extracted data are available at [test120_GoogleDrive](https://drive.google.com/drive/folders/1DOeMn5LxjNFtlSTV5frrLSOHMJ3eNCO_)
 
-## Download Video Clips
+## Prepare Data
+### Download Video Clips
 
 Requirements
 
@@ -38,7 +39,7 @@ Download
 python data_processing/download_clips.py 'data/sample_v_nv_test120_new.json' 'data/test120/raw_video'
 ```
 
-## Extract Video Frames & Audio Waves
+### Extract Video Frames & Audio Waves
 
 ```
 python data_processing/dowload_clips.py
