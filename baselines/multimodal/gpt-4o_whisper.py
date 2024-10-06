@@ -14,6 +14,7 @@ import re
 import sys
 import json
 from tqdm import tqdm
+from requests.exceptions import RequestException
 
 
 load_dotenv()
@@ -84,19 +85,28 @@ def generate_clip_caption(path):
         "max_tokens": 100
     }
 
-    response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload).json()
-    caption = response['choices'][0]['message']['content']
-
-    return caption
+    try:
+        response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
+        response.raise_for_status()
+        return response.json()['choices'][0]['message']['content']
+    except RequestException as e:
+        print(f"An error occurred while generating clip caption: {e}")
+        print(f"Response status code: {response.status_code}")
+        print(f"Response content: {response.text}")
+        return None
 
 
 def generate_audio_transcript(path):
-    audio_file= open(path, "rb")
-    transcription = client.audio.translations.create(
-        model=OPENAI_MODEL_AUDIO, 
-        file=audio_file
-    )
-    return transcription.text
+    try:
+        with open(path, "rb") as audio_file:
+            transcription = client.audio.translations.create(
+                model=OPENAI_MODEL_AUDIO, 
+                file=audio_file
+            )
+        return transcription.text
+    except Exception as e:
+        print(f"An error occurred while generating audio transcript: {e}")
+        return None
 
 
 def post_processing(image_caption, audio_caption):

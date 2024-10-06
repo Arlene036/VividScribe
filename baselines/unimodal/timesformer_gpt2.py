@@ -40,7 +40,7 @@ def extract_frames(video_dir, model):
 
 if __name__ == "__main__":
     
-    in_path = sys.argv[1]  # Path to the folder of ultiple clips, where each clip is a folder of frames
+    in_path = sys.argv[1]  # Path to the folder of video clips
     out_path = sys.argv[2]  # Path to the output json file
     
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     gen_kwargs = {
             "min_length": 20, 
             "max_length": 50, 
-            "num_beams": 8,
+            "num_beams": 12,
         }
 
     captions = []
