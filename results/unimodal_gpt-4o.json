@@ -1,0 +1,20 @@
+{
+  "verbal": {
+    "Bleu_1": 17.53,
+    "Bleu_2": 6.88,
+    "Bleu_3": 3.25,
+    "Bleu_4": 1.6,
+    "METEOR": 6.87,
+    "ROUGE_L": 16.32,
+    "CIDEr": 12.29
+  },
+  "non-verbal": {
+    "Bleu_1": 19.99,
+    "Bleu_2": 7.44,
+    "Bleu_3": 2.6,
+    "Bleu_4": 0.0,
+    "METEOR": 8.45,
+    "ROUGE_L": 18.75,
+    "CIDEr": 20.7
+  }
+}
