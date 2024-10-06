@@ -1,5 +1,14 @@
 {
   "valor_nonverbal": {
+    "Bleu_1": 23.25,
+    "Bleu_2": 8.7,
+    "Bleu_3": 2.91,
+    "Bleu_4": 0.0,
+    "METEOR": 9.44,
+    "ROUGE_L": 19.71,
+    "CIDEr": 22.83
+  },
+  "vast": {
     "Bleu_1": 26.58,
     "Bleu_2": 13.47,
     "Bleu_3": 8.04,
@@ -7,14 +16,5 @@
     "METEOR": 12.25,
     "ROUGE_L": 21.5,
     "CIDEr": 37.47
-  },
-  "vast": {
-    "Bleu_1": 21.7,
-    "Bleu_2": 8.05,
-    "Bleu_3": 2.74,
-    "Bleu_4": 0.0,
-    "METEOR": 8.51,
-    "ROUGE_L": 18.56,
-    "CIDEr": 19.88
   }
 }
