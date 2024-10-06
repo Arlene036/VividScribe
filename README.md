@@ -42,13 +42,13 @@ brew install ffmpeg
 
 Download
 
-for valor dataset
-```
-python data_processing/download_clips.py 'data/valor120/sample_v_nv_test120_new.json' 'data/valor120/raw_video'
-```
+1. VALOR data
 
-for vast dataset
-TODO
+    ```
+    python data_processing/download_clips.py 'data/valor120/sample_v_nv_test120_new.json' 'data/valor120/raw_video'
+    ```
+2. VAST data
+    **TODO**
 
 ### Combine Video Clips
 
@@ -64,6 +64,13 @@ TODO
     python data_processing/combine_dataset.py
     ```
 
+### Create Mapping
+> **Note:** This step is to create a mapping from the 2 dataset sources to the video clip ids, so that we can evaluate two subsets separately.
+
+```
+python data_processing/mapping.py
+```
+
 ### Extract Video Frames & Audio Waves
 
 ```
@@ -72,26 +79,24 @@ python  python data_processing/extract_frame_and_wav_multiprocess.py
 
 ## Evaluation
 
-Before running the evaluation, make sure to prepare the captions in the right json format as below:
+> **Note:** Before running the evaluation, make sure to prepare the captions in the right json format as below:
+
+> ```
+>    {"annotations": [
+>        {
+>            "video_id": "video_id1",
+>            "caption": "caption1"
+>        },
+>        {
+>            "video_id": "video_id2",
+>            "caption": "caption2"
+>        },
+>        ...
+>    ]}
+>```
+
+### Compute Metrics
 
 ```
-{
-    "annotations": [
-        {
-            "video_id": "video_id1",
-            "caption": "caption1"
-        },
-        {
-            "video_id": "video_id2",
-            "caption": "caption2"
-        },
-        ...
-    ]
-}
-```
-
-Compute Metrics
-
-```
-python evaluation/evaluation_caption.py --generated_cap_path <generated_captions.json> --output_dir <output_results.json>
+bash eval.sh
 ```
