@@ -11,7 +11,6 @@ from multiprocessing import Pool
 import subprocess
 
 
-
 ### change diffenrent datasets
 input_path = 'data/mix120/raw_video'
 output_path = 'data/mix120/extracted_data'

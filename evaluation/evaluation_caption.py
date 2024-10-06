@@ -9,8 +9,8 @@ from eval_caption_tools.pycocoevalcap.eval import COCOEvalCap
 from eval_caption_tools.pycocotools.coco import COCO
 
 
-GROUND_TRUTH_PATH = "output/groundtruth.json"
-MAPPING_PATH = "data/test120/test120_mapping.json"
+GROUND_TRUTH_PATH = "output/mix120_groundtruth.json"
+MAPPING_PATH = "data/mix120/mapping.json"
 
 def load_mapping(mapping_file):
     """Load the verbal/non-verbal mapping file."""
@@ -46,7 +46,7 @@ def evaluate_captions(generated_captions_file, ground_truth_file, mapping_file):
 
     results = {}
 
-    for category in ['verbal', 'non-verbal']:
+    for category in ['valor_nonverbal', 'vast']:
         print(f"Evaluating {category} videos")
         
         # Filter annotations

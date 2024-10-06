@@ -1,6 +1,5 @@
 # VividScribe
 
-
 ## Original Dataset
 
 Using Valor-32k but downloaded from [VAST](https://github.com/TXH-mercury/VAST?tab=readme-ov-file).
@@ -8,31 +7,29 @@ Using Valor-32k but downloaded from [VAST](https://github.com/TXH-mercury/VAST?t
 Downloaded here and choose `anotation/valor32k`
 [Google Drive](https://drive.google.com/file/d/1bOLUbbnPTgUp_Nc0PgORKC-174CwgwPm/view)
 
-
-## Sample from Valor-32k for Evaluation
+## Sample from VALOR-32k + VAST 27M for Evaluation
 
 Details could be seen in `data_processing/dataset_sample.ipynb`.
 
 In summary, 120 video clips were sampled, including:
 
-- 60 non-verbal clips
-- 60 verbal clips (divided into 20 light-verbal, 20 mid-verbal, and 20 heavy-verbal clips)
+- 60 non-verbal clips from valor 32k
+- 60 verbal clips from VAST 27M
 
-Sampled json dataset could be seen in `data/test120/sample_v_nv_test120_new.json`
+Sampled annotation json dataset could be seen in `data/mix_120/mix_120.json`.
 
-Raw video clips and extracted data are available at [test120_GoogleDrive](https://drive.google.com/drive/folders/1DOeMn5LxjNFtlSTV5frrLSOHMJ3eNCO_)
+Raw video clips and extracted data are available at [mix120_GoogleDrive](https://drive.google.com/drive/folders/1HERtDdyvf7Ts2HTnXbdUBOtSXE28waek?usp=drive_link)
 
-> **Note:** There are four of the clips that cannot be processed by frame and audio wave extractor. They are skipped in the evaluation.
+> **Note:** There are 3 of the clips from the VALOR subset that cannot be processed by frame and audio wave extractor, and all of them have no subtitles, indicating that there's limited information from the audio. Hence, they are skipped in the evaluation.
 >
 > p_o6NQX7lmE_0.000_10.000.wav (no subtitle)
-> 
-> xJ-6ewqMyxY_410.000_420.000.wav (have subtitle)
-> 
+>
 > niJg7Q1XLyU_50.000_60.000.wav (no subtitle)
-> 
+>
 > wj-gglKQ3KI_30.000_40.000.wav (no subtitle)
 
 ## Prepare Data
+
 ### Download Video Clips
 
 Requirements
@@ -45,18 +42,38 @@ brew install ffmpeg
 
 Download
 
+for valor dataset
 ```
-python data_processing/download_clips.py 'data/sample_v_nv_test120_new.json' 'data/test120/raw_video'
+python data_processing/download_clips.py 'data/valor120/sample_v_nv_test120_new.json' 'data/valor120/raw_video'
 ```
+
+for vast dataset
+TODO
+
+### Combine Video Clips
+
+1. extract the 60 non-verbal clips from `data/valor120/sample_v_nv_test120_new.json`:
+
+    ```
+    python data_processing/filter_nonverbal.py
+    ```
+
+2. combine the 60 non-verbal clips with the 60 verbal clips that randomly sampled from `data/vast120/vast_test120.json`:
+    
+    ```
+    python data_processing/combine_dataset.py
+    ```
 
 ### Extract Video Frames & Audio Waves
 
 ```
-python data_processing/dowload_clips.py
+python  python data_processing/extract_frame_and_wav_multiprocess.py
 ```
 
 ## Evaluation
+
 Before running the evaluation, make sure to prepare the captions in the right json format as below:
+
 ```
 {
     "annotations": [
@@ -72,7 +89,9 @@ Before running the evaluation, make sure to prepare the captions in the right js
     ]
 }
 ```
+
 Compute Metrics
+
 ```
 python evaluation/evaluation_caption.py --generated_cap_path <generated_captions.json> --output_dir <output_results.json>
 ```
