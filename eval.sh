@@ -9,3 +9,7 @@ python evaluation/evaluation_caption.py \
 python evaluation/evaluation_caption.py \
     --generated_cap_path 'output/unimodal_timesformer.json' \
     --output_dir 'results/unimodal_timesformer.json'
+
+python evaluation/evaluation_caption.py \
+    --generated_cap_path 'output/multimodal_timesformer_subtitle.json' \
+    --output_dir 'results/multimodal_timesformer_subtitle.json'

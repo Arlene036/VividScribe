@@ -1,0 +1,20 @@
+{
+  "valor_nonverbal": {
+    "Bleu_1": 10.66,
+    "Bleu_2": 4.33,
+    "Bleu_3": 1.21,
+    "Bleu_4": 0.0,
+    "METEOR": 5.57,
+    "ROUGE_L": 14.92,
+    "CIDEr": 9.42
+  },
+  "vast": {
+    "Bleu_1": 6.26,
+    "Bleu_2": 3.14,
+    "Bleu_3": 1.64,
+    "Bleu_4": 0.75,
+    "METEOR": 5.78,
+    "ROUGE_L": 15.42,
+    "CIDEr": 1.37
+  }
+}
