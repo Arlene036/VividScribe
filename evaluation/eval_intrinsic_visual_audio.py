@@ -36,8 +36,8 @@ def filter_annotations(annotations, video_ids):
 
 def calculate_unigram_recall_single(groundtruth_labels, generated_caption):
     # Tokenize the labels and the caption
-    groundtruth_tokens = groundtruth_labels.split()
-    generated_tokens = generated_caption.split()
+    groundtruth_tokens = groundtruth_labels.lower().split()
+    generated_tokens = generated_caption.lower().split()
     
     # Count overlapping unigrams
     groundtruth_counter = Counter(groundtruth_tokens)
