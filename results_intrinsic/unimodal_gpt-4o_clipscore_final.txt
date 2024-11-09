@@ -1,0 +1,2 @@
+Average of mean scores: 0.2970
+Average of max scores: 0.3203
