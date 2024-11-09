@@ -13,6 +13,15 @@ from collections import Counter
 import torch
 from bert_score import score
 import pandas as pd
+
+import warnings
+import logging
+from transformers import logging as trans_logging
+
+warnings.filterwarnings("ignore")
+trans_logging.set_verbosity_error()
+logging.getLogger("transformers").setLevel(logging.ERROR)
+
 GROUND_TRUTH_PATH = "output/mix120_groundtruth.json"
 MAPPING_PATH = "data/mix120/mapping.json"
 
@@ -80,6 +89,8 @@ def calculate_metrics(ground_truth, generated_captions, mapping, output_dir, ind
         
         for gt_ann, gen_ann in zip(gt_annotations, gen_annotations):
             assert gt_ann['video_id'] == gen_ann['video_id']
+            if len(gt_ann['object_labels']) == 0 or len(gt_ann['audio_cap'])==0:
+              continue
 
             print("caption: ", gen_ann['caption'])
             print("object labels: ", gt_ann['object_labels'])
@@ -95,35 +106,40 @@ def calculate_metrics(ground_truth, generated_captions, mapping, output_dir, ind
             detailed_scores.append({
                 'video_id': gt_ann['video_id'],
                 'category': category,
-                'groundtruth': gt_ann['audio_cap'],
+                'audiocap_groundtruth': gt_ann['audio_cap'],
+                'object_labels_groundtruth': gt_ann['object_labels'],
                 'generated_caption': gen_ann['caption'],
                 'rouge1_recall': round(recall, 4),
-                'bert_precision': round(bert_score['precision'], 4),
-                'bert_recall': round(bert_score['recall'], 4),
-                'bert_f1': round(bert_score['f1'], 4)
+                'audiocap_bert_precision': round(bert_score['precision'], 4),
+                'audiocap_bert_recall': round(bert_score['recall'], 4),
+                'audiocap_bert_f1': round(bert_score['f1'], 4)
             })
             
             # for light testing
-            if len(detailed_scores) == 5:
-                break
+            # if len(detailed_scores) == 5:
+            #     break
+            # if len(detailed_scores) == 10:
+            #     break
         
         results[category] = {
             "avg_rouge1_recall": round(sum(metrics['rouge1_recalls']) / len(metrics['rouge1_recalls']), 4),
-            "avg_bert_precision": round(sum(metrics['bert_precisions']) / len(metrics['bert_precisions']), 4),
-            "avg_bert_recall": round(sum(metrics['bert_recalls']) / len(metrics['bert_recalls']), 4),
-            "avg_bert_f1": round(sum(metrics['bert_f1s']) / len(metrics['bert_f1s']), 4)
+            "avg_audiocap_bert_precision": round(sum(metrics['bert_precisions']) / len(metrics['bert_precisions']), 4),
+            "avg_audiocap_bert_recall": round(sum(metrics['bert_recalls']) / len(metrics['bert_recalls']), 4),
+            "avg_audiocap_bert_f1": round(sum(metrics['bert_f1s']) / len(metrics['bert_f1s']), 4)
         }
         
         print(f"\nScores for {category} videos:")
-        for metric, value in results[category]['average_scores'].items():
+        for metric, value in results[category].items():
             print(f"- {metric}: {value}")
         
     # write the results to the output file
+    os.makedirs(os.path.dirname(output_dir), exist_ok=True)
     with open(output_dir, 'w') as f:
         json.dump(results, f, indent=4)
     print(f"\nEval AverageResults saved to: {output_dir}")
     
     if individual_scores_path:
+        os.makedirs(os.path.dirname(individual_scores_path), exist_ok=True)
         df = pd.DataFrame(detailed_scores)
         df.to_csv(individual_scores_path, index=False)
         print(f"\nDetailed scores saved to: {individual_scores_path}")

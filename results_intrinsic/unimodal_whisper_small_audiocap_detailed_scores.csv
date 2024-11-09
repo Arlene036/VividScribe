@@ -1,0 +1,11 @@
+video_id,category,audiocap_groundtruth,object_labels_groundtruth,generated_caption,rouge1_recall,audiocap_bert_precision,audiocap_bert_recall,audiocap_bert_f1
+Uq3iKbCNDCM_60.000_70.000,valor_nonverbal,violin instrument music,man violin church,A musical instrument is being played in a tune.,0.0,0.8581,0.8696,0.8638
+W7gn2todzbg_30.000_40.000,valor_nonverbal,alarm is ringing and clock ticks,alarm bell,A bell rings and then the clock ticks quietly.,0.5,0.9063,0.9195,0.9129
+ZHSPLH5-zvw_50.000_60.000,valor_nonverbal,"The crisp, continuous sound of drumming or music instrument",man drum kit,"A machine is running and then stops, then starts again.",0.0,0.8376,0.8184,0.8279
+ZX7EzqMBjfo_160.000_170.000,valor_nonverbal,"The melodious sound of musical instruments, piano music",yellow leaves piano,A musical instrument is playing a melody with a soft melody.,0.0,0.8968,0.8716,0.884
+a7g3P1HGV4E_0.000_7.000,valor_nonverbal,The sound of wind and howling,tree wind indicator,The wind is blowing hard and leaves are rustling.,0.3333,0.8714,0.8606,0.866
+-EZDd29Id-A.21,vast,a man is saying a phrase. a small device on a desktop is being opened.,man battery car,A man is speaking while tapping something on a keyboard.,0.3333,0.9141,0.9094,0.9117
+-rr68KmhIzc.20,vast,a sound is being made. sounds of a commercial for a toy are being made. a sound is being played.,woman video game egg,A woman and a man are speaking while music is playing in the background.,0.25,0.8724,0.8748,0.8736
+0A5UYpuxRQg.10,vast,someone says do it and go . someone is expressing joy to go home.,camera woman table,"A woman speaks and laughs, and another woman speaks and laughs louder.",0.3333,0.8711,0.8625,0.8668
+Wtll1g9i0M8.15,vast,voice is being used in a game. a woman is speaking. a woman is speaking in a room with some english words added. a young woman is speaking in a kitchen.,man scarf blue,A woman is speaking and a man laughs,0.3333,0.8811,0.8721,0.8766
+YSsSpw_t0I4.45,vast,sound is being made from sample loops. someone is talking. a voice sample is heard.,woman makeup mirror,A woman is speaking and a piano is playing in the background.,0.3333,0.897,0.8776,0.8872
