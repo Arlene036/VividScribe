@@ -3,181 +3,181 @@
         {
             "video_id": "-EZDd29Id-A.21",
             "caption": "The man is working on the back side of a remote control vehicle, considering measuring the battery voltage on a big battery.",
-            "object_labels": "man battery car",
+            "object_labels": "man battery circuit tools",
             "audio_cap": "a man is saying a phrase. a small device on a desktop is being opened."
         },
         {
             "video_id": "-Vo4CAMX26U_30.000_40.000",
             "caption": "A man was playing an instrument and the music echoed outside.",
-            "object_labels": "instrument stage man",
-            "audio_cap": ""
+            "object_labels": "instrument man outside",
+            "audio_cap": "A musical instrument is played with the sound echoing."
         },
         {
             "video_id": "-rr68KmhIzc.20",
             "caption": "A woman is talking about a video game and mentions an Easter egg that is obvious but still cool.",
-            "object_labels": "woman video game egg",
+            "object_labels": "man woman video game",
             "audio_cap": "a sound is being made. sounds of a commercial for a toy are being made. a sound is being played."
         },
         {
             "video_id": "0A5UYpuxRQg.10",
             "caption": "A woman is talking in front of the camera and thinks that a heavy cream is okay, but feels like a butter.",
-            "object_labels": "camera woman table",
+            "object_labels": "woman patch cup drinks",
             "audio_cap": "someone says do it and go . someone is expressing joy to go home."
         },
         {
             "video_id": "1c7NBk1x3y0_30.000_40.000",
             "caption": "A black car pulled up in the open space in front of the white house, making the sound of its engine.",
             "object_labels": "black car white house",
-            "audio_cap": ""
+            "audio_cap": "The car engine roared."
         },
         {
             "video_id": "1lfmwRJYins.9",
             "caption": "A young man is doing various tricks with his mouth, moves his fist and arm, and speaks in a conversation about climbing stairs and boxing, saying that everything in body weight is complicated.",
-            "object_labels": "",
+            "object_labels": "man TV video game",
             "audio_cap": "a man is speaking about a local event. voices are being recorded. a man is speaking and asking someone about a sound. someone is speaking in a conversation. people are talking."
         },
         {
             "video_id": "2Tx5L5RBXxw_200.000_210.000",
             "caption": "With the sound of the water, a man spoke in the water, where fish swam.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "water fish fishing rod",
+            "audio_cap": "with the sound of flowing water, a man is speaking"
         },
         {
             "video_id": "2gc1L3g1itU_20.000_30.000",
             "caption": "The fingers are pressed constantly on the piano keyboard, and the piano makes a corresponding melodious sound.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "piano fingers",
+            "audio_cap": "Someone is playing the piano with a melodious sound."
         },
         {
             "video_id": "2xmCKjpuSfQ.24",
             "caption": "A man talks about a black holiday, which takes place on November 23rd, and recommends doing research to reduce it.",
-            "object_labels": "",
+            "object_labels": "man black holiday",
             "audio_cap": "a man is talking about products. a man s voice is being heard. a person is speaking about a video game."
         },
         {
             "video_id": "42yFzSA1DFk_50.000_60.000",
             "caption": "A man sleeps with his mouth open and snores",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "a man month",
+            "audio_cap": "A man snores."
         },
         {
             "video_id": "4KeFV0rAu_0_14.000_24.000",
             "caption": "In the music, a phone with a broken screen appears.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "A phone with a broken screen",
+            "audio_cap": "A song is played."
         },
         {
             "video_id": "4lUOJNaRy3I.3",
             "caption": "The speaker is thanking the audience for being in the zone and appreciating the wedding of the man and woman standing on the steps.",
-            "object_labels": "",
+            "object_labels": "man woman wedding microphone",
             "audio_cap": "someone is saying something good. a sound is being made. radio show sound. an announcement is being made."
         },
         {
             "video_id": "4vtPYQ7cyd0.10",
             "caption": "A person is using a gun while playing a video game in a foreign language, and they are talking about the game's progress, which has had a couple of losses but is now moving on to the next map.",
-            "object_labels": "",
+            "object_labels": "video game gun",
             "audio_cap": "voice acting is being heard. someone is talking about something. no credit needed. someone s voice is being heard."
         },
         {
             "video_id": "5_-yllGCcFk.118",
             "caption": "A boy is lying on the ground playing with his toys while someone is laughing at school, and Jared believes his philosophy is correct.",
-            "object_labels": "",
+            "object_labels": "boy on the ground",
             "audio_cap": "someone is laughing. someone is laughing at a musical event at a park. sound of someone having sex with a group or having sex. someone is laughing at school."
         },
         {
             "video_id": "5n0xq6pE_mg_300.000_310.000",
             "caption": "A man ran out of the building with a bomb strapped to his body and was shot with two bullets by a bald man, followed by a flash of fire.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "A man with a bomb strapped to him, a man firing two gunshots",
+            "audio_cap": "A man yelled, two gun shots were fired, a bomb exploded."
         },
         {
             "video_id": "68-QAwB8TdI.1",
             "caption": "A woman is demonstrating a metal sheet using a shin stock, starting with a thin sheet of brass that is scalable to 15000 from McMaster.",
-            "object_labels": "",
+            "object_labels": "two men metal sheet",
             "audio_cap": "a man is speaking. people are having a good time in a bar. people are discussing things. someone is speaking on televisions. people are recording sounds of a shop."
         },
         {
             "video_id": "6duevT5XQjI.12",
             "caption": "A man on a talk show is talking to another man about the need for mental health support, like a big mountain or a massive structure in the desert, to create a better reality.",
-            "object_labels": "",
+            "object_labels": "two men talking on a show",
             "audio_cap": "people are having a conversation. a news event is being played."
         },
         {
             "video_id": "7FT1WnwOcxA_40.000_50.000",
             "caption": "In the room, a person is practicing playing table tennis, the table tennis is played out bouncing on the board to make a rattle.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "person table tennis",
+            "audio_cap": "The sound of a table tennis ball bouncing on the table."
         },
         {
             "video_id": "8aKhvS70_zY_40.000_50.000",
             "caption": "In the room, a girl was lying on the bed, shaking, and a dog was barking.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "girl on the bed",
+            "audio_cap": "A dog is barking."
         },
         {
             "video_id": "94Y_QnedxB8_11.000_21.000",
             "caption": "A woman starts clicking on her keyboard when she sees someone leaving, then pushes the monitor off the table and breaks it, breaking the glass in the background with laughter.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "woman keyboard monitor",
+            "audio_cap": "someone is typing on a keyboard, then a huge crash is heard."
         },
         {
             "video_id": "96VZFklUM_Q.32",
             "caption": "The speaker has adapted to a whole food type diet, similar to primal and paleo, where they just eat.",
-            "object_labels": "",
+            "object_labels": "man speaker in the wild",
             "audio_cap": "someone is speaking. a man is speaking about something and he is also talking about the situation. someone is talking about their career goals. a man is speaking."
         },
         {
             "video_id": "9PhmPJ_p_T4.14",
             "caption": "A man is holding an orange object with eyeglasses on, and he is speaking about a hot shoe converter that is Cornett.",
-            "object_labels": "",
+            "object_labels": "man holding a product",
             "audio_cap": "sound of a store. a voice is being recorded in an airport lobby. a person in a shopping mall is introducing himself to a product. a man is talking about a shoe shop. a man is speaking."
         },
         {
             "video_id": "A-7BwBBtzUI.89",
             "caption": "Avoid potentially aggressive behavior from the massive bird by staying away from it and not offering food.",
-            "object_labels": "",
+            "object_labels": "cartoon man large bird",
             "audio_cap": "an audio commentary is being made. this is a darker and dark soundtrack for a film. a short loopable clip is being played."
         },
         {
             "video_id": "AU1l1i0H0j0_30.000_40.000",
             "caption": "Video shows a person holding a spray in the middle of a musical sound and spraying paint on a rotating circular object.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "spray metal object",
+            "audio_cap": "A background music is playing with a sound of spraying paint."
         },
         {
             "video_id": "BPFA7RzzJdM_10.000_20.000",
             "caption": "A clock hung on the wall of the room, and the gears kept turning to make beautiful music.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "clock rotating gears",
+            "audio_cap": "A light music is playing."
         },
         {
             "video_id": "Bltc4o615qI.43",
             "caption": "The man is singing on the talk show, and he had to learn the song phonetically as it is difficult, taking him two months to do so.",
-            "object_labels": "",
+            "object_labels": "two men talking on a show",
             "audio_cap": "a show is being done. a radio announcer is in conversation. a speech is being given."
         },
         {
             "video_id": "CZc9MZIxSSc_30.000_40.000",
             "caption": "A man in a Blue Jacket works out in a park with a long whip in his hand and a crackling sound.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "man swings a long whip",
+            "audio_cap": "The crackling sound made by a rope swinging through the air"
         },
         {
             "video_id": "CaYNuuW9rt4_11.000_21.000",
             "caption": "Pictures of horses appear in the video, followed by the horse's hiss.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "horse pictures",
+            "audio_cap": "Two different hissing sound of horses"
         },
         {
             "video_id": "CgTc_-A_Gzw_0.000_8.000",
             "caption": "A color background picture with amplitudes and notes slowly disappears into a black, whistling sound.",
-            "object_labels": "",
-            "audio_cap": ""
+            "object_labels": "audio amplitude notes",
+            "audio_cap": "A whistling sound"
         },
         {
             "video_id": "D7-F3rQX4VI.4",
             "caption": "A tutorial on a girly pinup hairstyle with pigtails, a vintage inspired bathing suit, and bright pink lips is being given by a female voice with brown hair.",
-            "object_labels": "",
+            "object_labels": "girl brown hair pigtail pink lips floral dress",
             "audio_cap": "someone s girlfriend is speaking. a female voice is saying something."
         },
         {
