@@ -303,157 +303,173 @@
         {
             "video_id": "Uq3iKbCNDCM_60.000_70.000",
             "caption": "Inside, a man was performing with a violin, and the sound of music was heard.",
-            "object_labels": ""
+            "object_labels": "man violin church",
+            "audio_cap": "violin instrument music"
         },
         {
             "video_id": "W7gn2todzbg_30.000_40.000",
             "caption": "Inside, the electronic chicks on the alarm clock start to move as the alarm clock rings.",
-            "object_labels": ""
+            "object_labels": "alarm bell",
+            "audio_cap": "alarm is ringing and clock ticks"
         },
         {
             "video_id": "Wtll1g9i0M8.15",
             "caption": "A young boy is talking about his friend who just finished his head in the game, using a voice that created a loophole in the Harry Potter series by matching the houses to people.",
-            "object_labels": ""
+            "object_labels": "man scarf blue"
         },
         {
             "video_id": "YSsSpw_t0I4.45",
             "caption": "A girl is putting on makeup while listening to music, and the speaker is talking about their natural eyebrow shape, noting that they can see it and will take some stray hairs that aren't in the natural shape.",
-            "object_labels": ""
+            "object_labels": "woman makeup mirror"
         },
         {
             "video_id": "ZHSPLH5-zvw_50.000_60.000",
             "caption": "A man was on the stage banging on the instrument, the sound of which echoed in the room.",
-            "object_labels": ""
+            "object_labels": "man drum kit",
+            "audio_cap": "The crisp, continuous sound of drumming or music instrument"
         },
         {
             "video_id": "ZX7EzqMBjfo_160.000_170.000",
             "caption": "Along with the music, the picture of the leaves is transformed into the picture of the boy playing the piano.",
-            "object_labels": ""
+            "object_labels": "yellow leaves piano",
+            "audio_cap": "The melodious sound of musical instruments, piano music"
         },
         {
             "video_id": "ZZKUxUjdcQw.17",
             "caption": "A woman is trying to get her hair cut while playing with her cat and is feeling overwhelmed.",
-            "object_labels": ""
+            "object_labels": "woman baby"
         },
         {
             "video_id": "_PtMggNfNHY.1",
             "caption": "I was in the garage getting everything set up for Nicole and PJ, with the vet, just talking to Cole.",
-            "object_labels": ""
+            "object_labels": "man park"
         },
         {
             "video_id": "_dXv_q8ierI.19",
             "caption": "A couple of men are preparing some fish and fishing equipment, and one of them is asking if the other is listening, while mentioning that their leader and worms are all organized.",
-            "object_labels": ""
+            "object_labels": "man backpack fishing rod"
         },
         {
             "video_id": "a7g3P1HGV4E_0.000_7.000",
             "caption": "A large white wind indicator whirled in the wind, rustling leaves around it.",
-            "object_labels": ""
+            "object_labels": "tree wind indicator",
+            "audio_cap": "The sound of wind and howling"
         },
         {
             "video_id": "aAzt7VFvhH0.5",
             "caption": "A person wearing a hat is playing a video game, and the audio features sounds from Freesound, while the speech subtitle describes the popularity of Super Smash Bros as a game that can be easily picked up and enjoyed by anyone with friends, and includes trash talking.",
-            "object_labels": ""
+            "object_labels": "game console cartoon"
         },
         {
             "video_id": "aoRW7iWXwoM.31",
             "caption": "A man is walking down a hallway while taking a selfie and speaking on the street about a large photo and video store that is like a palace, always finding better deals than the ones available.",
-            "object_labels": ""
+            "object_labels": "man walk sidewalk"
         },
         {
             "video_id": "b4G1my-YWoU.13",
             "caption": "A dog is running in the snow and talking with his owner, and a female voice is speaking, thanking someone named Hana, and mentioning that the ice is thin and cracking under their boot.",
-            "object_labels": ""
+            "object_labels": "dog woman snow ice lake boot winter"
         },
         {
             "video_id": "brRabaaeoy4.36",
             "caption": "A person is making a cooking introduction, using a spatula to apply ketchup onto a plate of food, and discussing whether it's art or not.",
-            "object_labels": ""
+            "object_labels": "bread sauce plate"
         },
         {
             "video_id": "bvoF_lFC_gg.59",
             "caption": "A man is tapping on a long counter top and moving his feet while the waiter is making food while being interviewed and cooking for a party. The waiter hopes they break, and the speaker suggests sitting like this to make it work and in principle, 1234 will fit here and maybe even",
-            "object_labels": ""
+            "object_labels": "man table chair backpack"
         },
         {
             "video_id": "cJGg7_oC-wM_70.000_80.000",
             "caption": "One person massages another person on the balcony following the sound of the lecture.",
-            "object_labels": ""
+            "object_labels": "woman massage balcony man",
+            "audio_cap": "a woman speaking and then a relaxing electronic music"
         },
         {
             "video_id": "clJZQsQzGCA_490.000_500.000",
             "caption": "In a city, a monk was ringing a bell, making a clang.",
-            "object_labels": ""
+            "object_labels": "bell",
+            "audio_cap": "The sound of bells ringing and echoing"
         },
         {
             "video_id": "d3or4p2BXx0_260.000_270.000",
             "caption": "On a table, a television set played the picture and made a prickly sound.",
-            "object_labels": ""
+            "object_labels": "television",
+            "audio_cap": "a soft thud, a burst of frantic noise, and then the sound of something being shut off."
         },
         {
             "video_id": "e3BdNhbiDwA_230.000_240.000",
             "caption": "A man with a black watch was operating the wall-breaker to shake a milkshake, which was buzzing.",
-            "object_labels": ""
+            "object_labels": "juicer arm watch",
+            "audio_cap": "The sound of an engine starting up"
         },
         {
             "video_id": "e6Df7Ocuqcs_180.000_190.000",
             "caption": "The puppy squatted in the woods half a hill, turning and running when he heard a roar like a tiger.",
-            "object_labels": ""
+            "object_labels": "dog forest",
+            "audio_cap": "A low, menacing growl of a terrifying robot or beast"
         },
         {
             "video_id": "eRiuGf1nzM0.3",
             "caption": "A woman in black is talking about a story, a woman is telling the news, and four people have been killed in a float plane crash off the coast of central BC.",
-            "object_labels": ""
+            "object_labels": "woman newsroom"
         },
         {
             "video_id": "evy2azZk3kE_40.000_50.000",
             "caption": "The gray-haired foreign man performed on stage with a microphone in his left hand and a harp in his right.",
-            "object_labels": ""
+            "object_labels": "man instrument harp",
+            "audio_cap": "The sound of cheerful instrumental ensemble and people is singing together"
         },
         {
             "video_id": "fWwV7o4VjEQ_30.000_40.000",
             "caption": "As the music went on, a man covered his face with his hand, and the picture turned, a woman with a pair of ponytails tilted her head against the tree.",
-            "object_labels": ""
+            "object_labels": "paint woman",
+            "audio_cap": "The person is singing along with the music of various instruments, including drums and an electric guitar."
         },
         {
             "video_id": "g7sVjiG-ytg_110.000_120.000",
             "caption": "The white stripes flickered as the music went on.",
-            "object_labels": ""
+            "object_labels": "computer screen white stripes",
+            "audio_cap": "Cheerful music with multiple instruments, including a keyboard, drums, and vocals"
         },
         {
             "video_id": "h8myevRe4r0_0.000_10.000",
             "caption": "As the heart beats, the lines shrink and appear on a black background.",
-            "object_labels": ""
+            "object_labels": "text",
+            "audio_cap": "steady sound of a heartbeat"
         },
         {
             "video_id": "hJYU3nBSyFo_10.000_20.000",
             "caption": "A red sedan buzzed its engine.",
-            "object_labels": ""
+            "object_labels": "red car",
+            "audio_cap": "car engine starting up"
         },
         {
             "video_id": "izQ3nLG4wU0.12",
             "caption": "The Golden State Warriors have mastered the game from the three-point line and defensive end, according to the speech subtitle, while three men are discussing sports at a table, as indicated by the vision and audio captions.",
-            "object_labels": ""
+            "object_labels": "man table basketball game"
         },
         {
             "video_id": "j53tAI-EGcI_30.000_40.000",
             "caption": "There was a deer's head on the wall of the room, and a blue bird came out of the door below, ticking.",
-            "object_labels": ""
+            "object_labels": "deer cuckoo clock",
+            "audio_cap": "soft and regular ticking sound and noises and cuckoo calls"
         },
         {
             "video_id": "jn9rHjphwtY.3",
             "caption": "A man and woman are doing a news show on a TV station, and a person is talking on the show, and the speaker says 'Watching, it's a sickness, it's a sickness. I hope you'.",
-            "object_labels": ""
+            "object_labels": "TV program woman man"
         },
         {
             "video_id": "kVDixF4dN3g.9",
             "caption": "A woman is speaking about a party that is going on, and people are talking about something, and she has never heard such a statement made during her 40 years of attending parties, and when the season ends.",
-            "object_labels": ""
+            "object_labels": "woman people lecture flower stone"
         },
         {
             "video_id": "mAG7Kwi9KOI.71",
             "caption": "A man in glasses is getting ready to head over to his friend's house, but before he left, he told his wife that he was going, and Rebecca thinks he has already left.",
-            "object_labels": ""
+            "object_labels": "dog shoes woman clothes man"
         },
         {
             "video_id": "mNsYlojC_kM_230.000_240.000",
