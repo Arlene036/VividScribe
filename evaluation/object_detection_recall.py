@@ -10,7 +10,9 @@ import argparse
 import os
 import sys
 from collections import Counter
-
+import torch
+from bert_score import score
+import pandas as pd
 GROUND_TRUTH_PATH = "output/mix120_groundtruth.json"
 MAPPING_PATH = "data/mix120/mapping.json"
 
@@ -38,8 +40,17 @@ def calculate_unigram_recall_single(groundtruth_labels, generated_caption):
     recall = overlap / total_groundtruth if total_groundtruth > 0 else 0.0
     return recall
 
-def calculate_unigram_recall(ground_truth, generated_captions, mapping, output_dir):
-    """Calculate the recall score for the given captions."""
+def calculate_bert_score_single(reference, candidate):
+    """Calculate BERT score for a single caption pair."""
+    P, R, F1 = score([candidate], [reference], lang="en", verbose=False)
+    return {
+        "precision": P.item(),
+        "recall": R.item(),
+        "f1": F1.item()
+    }
+
+def calculate_metrics(ground_truth, generated_captions, mapping, output_dir, individual_scores_path=None):
+    """Calculate the recall score and BERT score for the given captions."""
     
     # load ground truth and generated captions from json files to 
     print("Loading ground truth captions")
@@ -51,7 +62,8 @@ def calculate_unigram_recall(ground_truth, generated_captions, mapping, output_d
         generated_captions = json.load(f)
 
     results = {}
-    
+    detailed_scores = []
+
     for category in ['valor_nonverbal', 'vast']:
         print(f"Calculating recall for {category} videos")
 
@@ -59,43 +71,70 @@ def calculate_unigram_recall(ground_truth, generated_captions, mapping, output_d
         gt_annotations = filter_annotations(ground_truth['annotations'], mapping[category])
         gen_annotations = filter_annotations(generated_captions['annotations'], mapping[category])
 
-        # Calculate recall
-        total = 0
-        recall = 0
-        
-        for gt_ann, gen_ann in zip(gt_annotations, gen_annotations):
-            # check if the video IDs match
-            assert gt_ann['video_id'] == gen_ann['video_id']
-            print("caption: ", gen_ann['caption'])
-            print("object labels: ", gt_ann['object_labels'])
-            total += 1
-            recall += calculate_unigram_recall_single(gt_ann['object_labels'], gen_ann['caption'])
-            
-            # for light testing
-            # if total == 5:
-            #     break
-        
-        # around the recall score to 2 decimal places   
-        avg_recall = round(recall / total, 2)
-        
-        # add the recall score to the results dictionary
-        results[category] = {
-            "rouge1_recall": avg_recall
+        metrics = {
+            'rouge1_recalls': [],
+            'bert_precisions': [],
+            'bert_recalls': [],
+            'bert_f1s': []
         }
         
-        print(f"Average unigram recall for {category} videos: {avg_recall}")
+        for gt_ann, gen_ann in zip(gt_annotations, gen_annotations):
+            assert gt_ann['video_id'] == gen_ann['video_id']
+
+            print("caption: ", gen_ann['caption'])
+            print("object labels: ", gt_ann['object_labels'])
+
+            recall = calculate_unigram_recall_single(gt_ann['object_labels'], gen_ann['caption'])
+            bert_score = calculate_bert_score_single(gt_ann['audio_cap'], gen_ann['caption'])
+            
+            metrics['rouge1_recalls'].append(recall)
+            metrics['bert_precisions'].append(bert_score['precision'])
+            metrics['bert_recalls'].append(bert_score['recall'])
+            metrics['bert_f1s'].append(bert_score['f1'])
+
+            detailed_scores.append({
+                'video_id': gt_ann['video_id'],
+                'category': category,
+                'groundtruth': gt_ann['audio_cap'],
+                'generated_caption': gen_ann['caption'],
+                'rouge1_recall': round(recall, 4),
+                'bert_precision': round(bert_score['precision'], 4),
+                'bert_recall': round(bert_score['recall'], 4),
+                'bert_f1': round(bert_score['f1'], 4)
+            })
+            
+            # for light testing
+            if len(detailed_scores) == 5:
+                break
+        
+        results[category] = {
+            "avg_rouge1_recall": round(sum(metrics['rouge1_recalls']) / len(metrics['rouge1_recalls']), 4),
+            "avg_bert_precision": round(sum(metrics['bert_precisions']) / len(metrics['bert_precisions']), 4),
+            "avg_bert_recall": round(sum(metrics['bert_recalls']) / len(metrics['bert_recalls']), 4),
+            "avg_bert_f1": round(sum(metrics['bert_f1s']) / len(metrics['bert_f1s']), 4)
+        }
+        
+        print(f"\nScores for {category} videos:")
+        for metric, value in results[category]['average_scores'].items():
+            print(f"- {metric}: {value}")
         
     # write the results to the output file
     with open(output_dir, 'w') as f:
         json.dump(results, f, indent=4)
-        
+    print(f"\nEval AverageResults saved to: {output_dir}")
+    
+    if individual_scores_path:
+        df = pd.DataFrame(detailed_scores)
+        df.to_csv(individual_scores_path, index=False)
+        print(f"\nDetailed scores saved to: {individual_scores_path}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Calculate unigram recall for object detection")
     parser.add_argument("--generated_cap_path", type=str, help="Path to the JSON file containing the generated captions.")
-    parser.add_argument("--output_dir", type=str, help="Path to the output file to write the evaluation results.")    
+    parser.add_argument("--output_dir", type=str, help="Path to the output file to write the evaluation results.")
+    parser.add_argument("--individual_scores_path", default=None, type=str, help="Path to the output file to write the detailed scores.")    
     
     args = parser.parse_args()
     
     mapping = load_mapping(MAPPING_PATH)
-    calculate_unigram_recall(GROUND_TRUTH_PATH, args.generated_cap_path, mapping, args.output_dir)
+    calculate_metrics(GROUND_TRUTH_PATH, args.generated_cap_path, mapping, args.output_dir, args.individual_scores_path)
