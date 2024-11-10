@@ -1,11 +1,118 @@
-video_id,category,audiocap_groundtruth,object_labels_groundtruth,generated_caption,rouge1_recall,audiocap_bert_precision,audiocap_bert_recall,audiocap_bert_f1
-Uq3iKbCNDCM_60.000_70.000,valor_nonverbal,violin instrument music,man violin church,A musical instrument is being played in a tune.,0.0,0.8581,0.8696,0.8638
-W7gn2todzbg_30.000_40.000,valor_nonverbal,alarm is ringing and clock ticks,alarm bell,A bell rings and then the clock ticks quietly.,0.5,0.9063,0.9195,0.9129
-ZHSPLH5-zvw_50.000_60.000,valor_nonverbal,"The crisp, continuous sound of drumming or music instrument",man drum kit,"A machine is running and then stops, then starts again.",0.0,0.8376,0.8184,0.8279
-ZX7EzqMBjfo_160.000_170.000,valor_nonverbal,"The melodious sound of musical instruments, piano music",yellow leaves piano,A musical instrument is playing a melody with a soft melody.,0.0,0.8968,0.8716,0.884
-a7g3P1HGV4E_0.000_7.000,valor_nonverbal,The sound of wind and howling,tree wind indicator,The wind is blowing hard and leaves are rustling.,0.3333,0.8714,0.8606,0.866
--EZDd29Id-A.21,vast,a man is saying a phrase. a small device on a desktop is being opened.,man battery car,A man is speaking while tapping something on a keyboard.,0.3333,0.9141,0.9094,0.9117
--rr68KmhIzc.20,vast,a sound is being made. sounds of a commercial for a toy are being made. a sound is being played.,woman video game egg,A woman and a man are speaking while music is playing in the background.,0.25,0.8724,0.8748,0.8736
-0A5UYpuxRQg.10,vast,someone says do it and go . someone is expressing joy to go home.,camera woman table,"A woman speaks and laughs, and another woman speaks and laughs louder.",0.3333,0.8711,0.8625,0.8668
-Wtll1g9i0M8.15,vast,voice is being used in a game. a woman is speaking. a woman is speaking in a room with some english words added. a young woman is speaking in a kitchen.,man scarf blue,A woman is speaking and a man laughs,0.3333,0.8811,0.8721,0.8766
-YSsSpw_t0I4.45,vast,sound is being made from sample loops. someone is talking. a voice sample is heard.,woman makeup mirror,A woman is speaking and a piano is playing in the background.,0.3333,0.897,0.8776,0.8872
+video_id,audiocap_groundtruth,generated_caption,audiocap_rouge1_recall,audiocap_bert_precision,audiocap_bert_recall,audiocap_bert_f1
+-Vo4CAMX26U_30.000_40.000,A musical instrument is played with the sound echoing.,A synthesizer is playing a song with a low pitched hum.,0.3333,0.8899,0.9031,0.8964
+1c7NBk1x3y0_30.000_40.000,The car engine roared.,A car engine revs and then turns off.,0.5,0.9057,0.9696,0.9365
+2Tx5L5RBXxw_200.000_210.000,"with the sound of flowing water, a man is speaking",A man is speaking while water is splashing and gurgling.,0.5,0.886,0.8992,0.8926
+2gc1L3g1itU_20.000_30.000,Someone is playing the piano with a melodious sound.,A musical instrument is being played with a soft melody.,0.3333,0.9222,0.9169,0.9196
+42yFzSA1DFk_50.000_60.000,A man snores.,A person is snoring loudly while sleeping,0.3333,0.9005,0.9407,0.9202
+4KeFV0rAu_0_14.000_24.000,A song is played.,A man is singing and a guitar is playing,0.5,0.8926,0.9274,0.9097
+5n0xq6pE_mg_300.000_310.000,"A man yelled, two gun shots were fired, a bomb exploded.",A group of people are talking and a car is driving.,0.1818,0.8741,0.865,0.8695
+7FT1WnwOcxA_40.000_50.000,The sound of a table tennis ball bouncing on the table.,A person is hammering a hammer on a wooden tool.,0.1818,0.8834,0.8829,0.8832
+8aKhvS70_zY_40.000_50.000,A dog is barking.,"A dog barks and whimpers, and a person speaks quietly.",0.5,0.9006,0.9483,0.9238
+94Y_QnedxB8_11.000_21.000,"someone is typing on a keyboard, then a huge crash is heard.","A person typing on a computer keyboard, and then a crowd starts to laugh.",0.5,0.9224,0.9226,0.9225
+AU1l1i0H0j0_30.000_40.000,A background music is playing with a sound of spraying paint.,A radio tuner is being adjusted through static and the radio is playing a lot of static.,0.4545,0.8765,0.8912,0.8838
+BPFA7RzzJdM_10.000_20.000,A light music is playing.,A music box is playing a song with a lot of music in the background.,0.8,0.9014,0.9238,0.9125
+CZc9MZIxSSc_30.000_40.000,The crackling sound made by a rope swinging through the air,A person is whipping up a rope in the wind.,0.2727,0.9128,0.8816,0.8969
+CaYNuuW9rt4_11.000_21.000,Two different hissing sound of horses,A person is vocalizing something then the person is trying to start a conversation.,0.0,0.8444,0.8434,0.8439
+CgTc_-A_Gzw_0.000_8.000,A whistling sound,"A whistle is blown once, then it is blown again.",0.3333,0.8431,0.8561,0.8496
+HTBxRn8Sbyc_7.000_17.000,a machine is cutting trees,A machine is running and then stops and starts up again.,0.6,0.8657,0.9039,0.8844
+Jk5dHnmduAg_320.000_330.000,birds are shot down,A bird flies away and then a machine gun fires.,0.0,0.8762,0.8824,0.8793
+KzzKguqINa8_100.000_110.000,a piece of music is being played,A person playing a piano sound followed by a sound effects unit.,0.1429,0.8531,0.8584,0.8558
+Ln0Epmhtvao_150.000_160.000,tubular instrument is being struck. different instruments are being played,A bell is ringing and a piano is playing music.,0.1,0.8699,0.8616,0.8657
+Meshocn2mZQ_30.000_40.000,music and croaking are played,A frog croaks while a music is played in the background.,0.4,0.8768,0.8756,0.8762
+Olrb-mdHJ7s_150.000_160.000,mouse is making a sound,A small bird is chirping in a high pitched tone.,0.4,0.8538,0.8812,0.8673
+OseeYF_ud7g_120.000_130.000,an instrument is being played,A stringed instrument is being played on a violin.,0.8,0.8993,0.9508,0.9243
+P9keWnQjNJY_20.000_30.000,chickens are clucking with the wind blowing,A rooster crows and a rooster crows again and again.,0.0,0.846,0.8587,0.8523
+R7ls6ZQJ5UM_570.000_580.000,a music is played,A bell is ringing and playing music.,0.75,0.8951,0.9233,0.909
+RX5jaZv52rQ_280.000_290.000,some noise,"A sewing machine is operating and then stops, and the machine resumes operating again.",0.0,0.8153,0.8436,0.8292
+SlcWZ2TKjnM_140.000_150.000,a music is played,A country music is playing and a person is singing.,0.75,0.9008,0.9453,0.9225
+Sv9fcuRfk2o_70.000_80.000,two men are laughing and takling happily,A man is speaking while a car horn honks in the background.,0.0,0.8806,0.8778,0.8792
+TiFboW8mqd4_30.000_40.000,a bird is making a sound,A bird is whistling and then another bird starts to whistle louder.,0.5,0.8852,0.9184,0.9015
+Uq3iKbCNDCM_60.000_70.000,violin instrument music,A musical instrument is being played in a tune.,0.3333,0.8581,0.8696,0.8638
+W7gn2todzbg_30.000_40.000,alarm is ringing and clock ticks,A bell rings and then the clock ticks quietly.,0.5,0.9063,0.9195,0.9129
+ZHSPLH5-zvw_50.000_60.000,"The crisp, continuous sound of drumming or music instrument","A machine is running and then stops, then starts again.",0.0,0.8376,0.8184,0.8279
+ZX7EzqMBjfo_160.000_170.000,"The melodious sound of musical instruments, piano music",A musical instrument is playing a melody with a soft melody.,0.125,0.8968,0.8716,0.884
+a7g3P1HGV4E_0.000_7.000,The sound of wind and howling,The wind is blowing hard and leaves are rustling.,0.5,0.8714,0.8606,0.866
+cJGg7_oC-wM_70.000_80.000,a woman speaking and then a relaxing electronic music,A woman is speaking and then a sidetone sound is heard,0.6667,0.8928,0.9244,0.9084
+clJZQsQzGCA_490.000_500.000,The sound of bells ringing and echoing,A bell is ringing loudly and echoes inside a building.,0.2857,0.9055,0.9066,0.9061
+d3or4p2BXx0_260.000_270.000,"a soft thud, a burst of frantic noise, and then the sound of something being shut off.",A door creaks as it is opened and closed.,0.1176,0.8572,0.8509,0.854
+e3BdNhbiDwA_230.000_240.000,The sound of an engine starting up,"A motor is running and then stops, then starts again.",0.0,0.8702,0.8681,0.8691
+e6Df7Ocuqcs_180.000_190.000,"A low, menacing growl of a terrifying robot or beast",A person is breathing heavily and a roaring sound is heard.,0.2,0.8698,0.8425,0.8559
+evy2azZk3kE_40.000_50.000,The sound of cheerful instrumental ensemble and people is singing together,A band is playing a song with a person singing.,0.1818,0.9185,0.8818,0.8998
+fWwV7o4VjEQ_30.000_40.000,"The person is singing along with the music of various instruments, including drums and an electric guitar.",A guitar is being plucked and a music is played.,0.2353,0.8974,0.8859,0.8916
+g7sVjiG-ytg_110.000_120.000,"Cheerful music with multiple instruments, including a keyboard, drums, and vocals",A song is played with drums and cymbals.,0.3636,0.8972,0.8743,0.8856
+h8myevRe4r0_0.000_10.000,steady sound of a heartbeat,A heart beats steadily and then slows down,0.2,0.8678,0.8671,0.8674
+hJYU3nBSyFo_10.000_20.000,car engine starting up,A motorcycle engine revs and then fades as it drives away.,0.25,0.8485,0.8747,0.8614
+j53tAI-EGcI_30.000_40.000,soft and regular ticking sound and noises and cuckoo calls,A ticking clock is followed by a beep and then a beep.,0.2,0.8639,0.8477,0.8557
+mNsYlojC_kM_230.000_240.000,wheels woman mimic,A motorcycle is being driven and a woman is laughing.,0.3333,0.8386,0.8601,0.8492
+p63sYVCLVUk_30.000_40.000,grinder sound metal friction,A machine is running and making a hissing sound.,0.25,0.8451,0.8022,0.8231
+pZF-hff52ts_60.000_70.000,gun shot reload man shout,A machine gun fires and a person walks away while a man yells and guns fire again.,0.4,0.8485,0.8648,0.8566
+r5kMQR8qbcQ_30.000_40.000,ringing wind,Birds chirp in the background as wind chimes ring and wind chimes clang.,0.5,0.8048,0.8568,0.83
+rzHXGinD6ZE_20.000_30.000,music car crash,A man singing followed by a crowd of people cheering then music plays,0.3333,0.8402,0.8404,0.8403
+s8UnuTvElzQ_0.000_10.000,loose items in a container,A person is shaking a can of soda cans.,0.2,0.8556,0.8526,0.8541
+uKGo4phKqLM_10.000_20.000,music singing,A man is singing while music is playing in the background.,1.0,0.8557,0.8887,0.8719
+vB00cAT5iPo_60.000_70.000,chowing,A person is walking on a hard surface and the wind is blowing.,0.0,0.8192,0.7897,0.8042
+xfNeZaw4o3U_17.000_27.000,motor,A motorcycle is being driven at a high speed.,0.0,0.8124,0.822,0.8172
+yBYd03Hr2kQ_320.000_330.000,music electric guitar,A guitar is being plucked and sound is heard.,0.3333,0.8411,0.8778,0.8591
+z3xiKSDoZEI_160.000_170.000,The sound of scissors cutting something,A person is using a scissors to cut down paper.,0.1667,0.8863,0.8719,0.879
+zUCZ4R0NNes_0.000_10.000,farting,A person is snoring and a person is laughing.,0.0,0.7989,0.9195,0.8549
+zZU-PJA5Woo_30.000_40.000,music singing,A toy car horn blares loudly nearby multiple times as people talk quietly.,0.0,0.8221,0.836,0.829
+-EZDd29Id-A.21,a man is saying a phrase. a small device on a desktop is being opened.,A man is speaking while tapping something on a keyboard.,0.3333,0.9141,0.9094,0.9117
+-rr68KmhIzc.20,a sound is being made. sounds of a commercial for a toy are being made. a sound is being played.,A woman and a man are speaking while music is playing in the background.,0.2,0.8724,0.8748,0.8736
+0A5UYpuxRQg.10,someone says do it and go . someone is expressing joy to go home.,"A woman speaks and laughs, and another woman speaks and laughs louder.",0.0714,0.8711,0.8625,0.8668
+1lfmwRJYins.9,a man is speaking about a local event. voices are being recorded. a man is speaking and asking someone about a sound. someone is speaking in a conversation. people are talking.,Two people are having a conversation with each other.,0.129,0.8839,0.8792,0.8815
+2xmCKjpuSfQ.24,a man is talking about products. a man s voice is being heard. a person is speaking about a video game.,A man is speaking to a large group in the background.,0.2381,0.893,0.8754,0.8841
+4lUOJNaRy3I.3,someone is saying something good. a sound is being made. radio show sound. an announcement is being made.,A man is giving a speech to another man.,0.1111,0.8663,0.8603,0.8633
+4vtPYQ7cyd0.10,voice acting is being heard. someone is talking about something. no credit needed. someone s voice is being heard.,A man is speaking while a music is playing in the background.,0.1053,0.863,0.8558,0.8594
+5_-yllGCcFk.118,someone is laughing. someone is laughing at a musical event at a park. sound of someone having sex with a group or having sex. someone is laughing at school.,"music plays, a man speaks and another laughs",0.0345,0.859,0.8487,0.8538
+68-QAwB8TdI.1,a man is speaking. people are having a good time in a bar. people are discussing things. someone is speaking on televisions. people are recording sounds of a shop.,A person talks as a machine makes a buzzing noise.,0.1034,0.8824,0.856,0.869
+6duevT5XQjI.12,people are having a conversation. a news event is being played.,A man is speaking and then another man speaks,0.1818,0.8413,0.8575,0.8494
+96VZFklUM_Q.32,someone is speaking. a man is speaking about something and he is also talking about the situation. someone is talking about their career goals. a man is speaking.,A man is speaking while music is playing in the background.,0.2143,0.8793,0.8759,0.8776
+9PhmPJ_p_T4.14,sound of a store. a voice is being recorded in an airport lobby. a person in a shopping mall is introducing himself to a product. a man is talking about a shoe shop. a man is speaking.,A man is speaking with his voice echoing.,0.1351,0.8842,0.8509,0.8672
+A-7BwBBtzUI.89,an audio commentary is being made. this is a darker and dark soundtrack for a film. a short loopable clip is being played.,A man is speaking while music is playing in the background.,0.1304,0.8826,0.8709,0.8767
+Bltc4o615qI.43,a show is being done. a radio announcer is in conversation. a speech is being given.,A man is speaking to another man on a microphone.,0.1875,0.8664,0.8797,0.873
+D7-F3rQX4VI.4,someone s girlfriend is speaking. a female voice is saying something.,A woman speaks while music plays in the background.,0.0909,0.8903,0.885,0.8876
+Fn4ULUxA3KI.21,a man is speaking. voice is being heard. sound is being recorded for a commercial.,A man is speaking and a person speaks again,0.3333,0.9004,0.8859,0.8931
+GfoyjUOE9Ek.8,someone is talking. an old man is asking for help or help. someone is speaking a funny manner. someone is speaking a phrase. someone is speaking to a phone call.,A man is speaking and then shouts at the end.,0.1333,0.8869,0.8536,0.87
+INNIheBpNKY.22,a request for credit is heard in the audio. a request is made. male voice is speaking in a language. a man is speaking.,A man is speaking to a group of people.,0.2083,0.9019,0.8741,0.8878
+IauuGcFwWZg.49,men are discussing. fishing rods are being pointed to. people are talking at a coffee shop.,A man is speaking while a vehicle engine is idling in the background.,0.0625,0.8801,0.8875,0.8838
+Jy04Fe2rNmw.2,someone is walking and talking. someone is crushing and telling about its benefits.,A man is speaking while he walks through the woods.,0.0769,0.8737,0.8664,0.8701
+LOVcimphxEc.1,music is playing for fun. a sound is being made for a movie trailer. a woman is speaking in a cheerful voice. someone is speaking.,A woman speaks while her voice echoes in the background.,0.16,0.8997,0.8739,0.8866
+LrL3EbvtOVw.40,sounds are present. a sound is created using a sampler. a voice is playing. a sound is playing.,A man is speaking while music plays in the background.,0.1111,0.8781,0.8736,0.8758
+MrisGbNESmA.2,a woman is walking with a horse and speaking. a woman is speaking.,A woman is speaking while a horse is walking in the background.,0.6154,0.9181,0.9302,0.9241
+NAIQyoPcjNM.11,a sound is being tested. a voice is saying the message that should be successful. someone is speaking. sound is present.,A man is speaking while the music is playing in the background.,0.2381,0.8828,0.8784,0.8806
+NYl0fGcNVl0.6,a person singing and speaking through a busy streets at night. a party is being held. a man is speaking and singing in front of a microphone. sounds are being made in a street. someone is speaking.,A man is speaking while a crowd is talking in the background.,0.1892,0.9022,0.877,0.8894
+P2TWje4lsgQ.7,male voice is speaking. someone is speaking. the street sounds like a street trip. someone is talking to their boss.,A man is speaking while music is playing in the background.,0.25,0.8839,0.8774,0.8806
+Q9zKGzm4qnI.17,sound is being edited. voice samples are heard. someone is speaking. sounds are being made.,A man is speaking with a slight echo,0.1333,0.8666,0.8724,0.8695
+QJgUEYFR49Y.46,someone is talking. someone is speaking. a voice is heard. someone is singing.,A man talks while a music is played in the background.,0.1538,0.8797,0.8826,0.8812
+QPHZ8rHeIXo.8,someone is talking. a coach is speaking about a recording on an iphone. someone is talking about the benefits of a new project. someone is telling someone what they love me.,A man is speaking while a cage is being opened.,0.1613,0.8778,0.8534,0.8654
+S2AfkLBFuP4.8,someone is saying a line that sounds like a zombie. a man is speaking. someone is making a sound.,A man is speaking in a foreign language in a foreign language.,0.3158,0.884,0.8871,0.8855
+UbpTXBNIXtQ.18,voice request is being conducted by a computer. the sound is recorded with a zoom mic. a sound is being heard. voice over is being recorded for a podcast. someone is asking for help with a microphone then it s good to be free.,speech is being made by a man,0.0909,0.8705,0.8191,0.844
+UmWkmGAu5Hc.14,someone is recording an engine. someone is asking for money to work. a man is speaking. sounds are being recorded. someone is recording a gas meter.,A man is speaking and a snap occurs,0.1923,0.8793,0.8541,0.8665
+Wtll1g9i0M8.15,voice is being used in a game. a woman is speaking. a woman is speaking in a room with some english words added. a young woman is speaking in a kitchen.,A woman is speaking and a man laughs,0.1613,0.8811,0.8721,0.8766
+YSsSpw_t0I4.45,sound is being made from sample loops. someone is talking. a voice sample is heard.,A woman is speaking and a piano is playing in the background.,0.2,0.897,0.8776,0.8872
+ZZKUxUjdcQw.17,someone is singing and talking to someone else. music is being heard at a dance. someone is saying hello hello you really don t know what you are doing . . someone is playing with her cat.,A woman is speaking while a child speaks in the background.,0.0541,0.8855,0.8408,0.8626
+_PtMggNfNHY.1,a lawn mower is working. a lawn mower is working at a park.,A man is speaking while a car horn honks in the background.,0.2308,0.8598,0.8688,0.8643
+_dXv_q8ierI.19,someone is talking about a game. a man is asking if he is listening. someone is speaking about an old man.,A man is speaking and a bag is being crumpled,0.2857,0.8676,0.884,0.8757
+aAzt7VFvhH0.5,freesound sounds. voice samples. a sample of a freesound project is being played.,A man is speaking and there is a trouble in the background.,0.2308,0.8548,0.8218,0.838
+aoRW7iWXwoM.31,a man is selling fish on a boat near a river. someone is walking along a street near a cathedral. man is speaking on a street.,A man is speaking as a truck engine revs up and down.,0.1923,0.8825,0.8843,0.8834
+b4G1my-YWoU.13,a female voice is speaking. a sound effect is being made.,A woman speaks as a dog pants in the background.,0.1818,0.8735,0.8844,0.8789
+brRabaaeoy4.36,ambient noise is playing. someone is making a cooking introduction. a cook is cooking food while cooking.,A woman speaks while music plays in the background.,0.1176,0.8822,0.866,0.874
+bvoF_lFC_gg.59,a chef s menu is being cooked. the waiter is making food while being interviewed and cooking for a party. a delicious pizza is being put in a bar. ingredients are being used.,A man is speaking while music plays in the background.,0.1515,0.8862,0.8548,0.8702
+eRiuGf1nzM0.3,someone is speaking. a woman is speaking. a person is speaking. a woman is telling the news.,A woman is speaking and a voice is speaking in the background.,0.4706,0.8856,0.8959,0.8907
+izQ3nLG4wU0.12,an off beat interview is being played on the radio. a commentary about a basketball game is being made. a mix of voices is heard. a sports match is being played on the internet.,A man is speaking while dribbling a basketball in the background.,0.1471,0.887,0.8555,0.871
+jn9rHjphwtY.3,a young man and woman are having a conversation. a person is talking on the show.,"A man is speaking to a show, and a crowd is laughing.",0.4375,0.9136,0.9121,0.9128
+kVDixF4dN3g.9,a person is giving an intro. people are talking about something. sound is being recorded.,A man is speaking and a woman speaks over a loudspeaker.,0.1333,0.8945,0.8896,0.892
+mAG7Kwi9KOI.71,a sound of a person s body movement is playing. sound is made in the kitchen with the freesound. a hip hop sound is being played. a sound is made by hand clapping.,A man is speaking while music plays in the background.,0.1212,0.884,0.8448,0.864
+ockTDkyCbiY.22,someone is talking. music playing.,A man is speaking and music is playing in the background.,0.6,0.9086,0.9471,0.9275
+piYDsIrSvME.27,man speaking,A man is giving a speech as music plays in the background.,0.5,0.8383,0.8446,0.8414
+prmGPzSpZtg.20, someone is saying something,A man is speaking and a sheep is bleating.,0.25,0.8323,0.8472,0.8397
+pyehK5UGPk8.17,a man is speaking. someone is speaking.,A man is speaking in a foreign language.,0.5714,0.9152,0.9362,0.9255
+rCqVWGlMXcY.1,people are talking,A man is speaking and then a drum beats and then a woman speaks.,0.0,0.8091,0.8221,0.8155
+sEHxWBHUAlM.121,a sound test is taking place tapping electronic,A man is speaking and then a drum beats and a drum beats.,0.25,0.8343,0.8435,0.8389
+uLWBKxHSwyY.36,a man is talking,A man is speaking in a foreign language in a foreign language.,0.75,0.8831,0.9314,0.9066
+uLcn-Q-TLO8.39,a woman is talking,A woman is speaking and a dog is barking in the background.,0.75,0.873,0.8969,0.8848
+v266CJ4-yhA.12,someone is talking,A woman is speaking and a crowd is laughing.,0.3333,0.8559,0.8574,0.8566
+wC-L0S7Lz_0.46,talking,A man is speaking and then taps a surface and speaks again.,0.0,0.7985,0.8419,0.8196
+wllkJ2lazaI.4,someone is speaking,A man is speaking to a group of people.,0.6667,0.8851,0.9,0.8925
+y2ZbO4KBLnY.3,talking,A man is speaking and a car engine is idling.,0.0,0.7945,0.827,0.8104
+ze0vbGinCyY.54,talking,Two people are conversing with one another,0.0,0.8023,0.8742,0.8367

@@ -128,7 +128,7 @@ def post_processing(image_caption, audio_caption):
 
 
 if __name__ == "__main__":
-    frames_path = sys.argv[1]  # Path to the folder of ultiple clips, where each clip is a folder of frames
+    frames_path = sys.argv[1]  # Path to the folder of multiple clips, where each clip is a folder of frames
     audio_path = sys.argv[2]  # Path to the folder of audio files
     out_path = sys.argv[3]  # Path to the output json file
 

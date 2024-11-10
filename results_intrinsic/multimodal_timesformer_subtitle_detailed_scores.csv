@@ -1,0 +1,118 @@
+video_id,objectlabels_groundtruth,generated_caption,objectlabels_rouge1_recall,objectlabels_bert_precision,objectlabels_bert_recall,objectlabels_bert_f1
+-EZDd29Id-A.21,man battery circuit tools,"A person is demonstrating how to use a remote control to turn a computer into a remote control, while discussing the battery voltage and red insulation of the device.",0.25,0.8283,0.8683,0.8478
+-Vo4CAMX26U_30.000_40.000,instrument man outside,"A man is sitting on the ground playing a musical instrument, showcasing different techniques with his mouth open and closed.",0.6667,0.8356,0.9047,0.8688
+-rr68KmhIzc.20,man woman video game,A man and a woman are playing a video game while the man talks about a cool Easter egg in the game.,1.0,0.8442,0.8706,0.8572
+0A5UYpuxRQg.10,woman patch cup drinks,A woman is demonstrating how to put on a pair of eyeglasses while humorously describing the sensation as feeling like butter.,0.25,0.8169,0.8234,0.8201
+1c7NBk1x3y0_30.000_40.000,black car white house,A man is sitting in the back seat of a car while another man is sitting in the front seat of the car.,0.25,0.8229,0.8444,0.8335
+1lfmwRJYins.9,man TV video game,A man is performing a complex boxing and fitness routine in front of a crowd.,0.25,0.8545,0.8402,0.8473
+2Tx5L5RBXxw_200.000_210.000,water fish fishing rod,A person is demonstrating fishing techniques in a river accompanied by background music.,0.25,0.8392,0.8695,0.8541
+2gc1L3g1itU_20.000_30.000,piano fingers,"A person is skillfully playing a song on a piano using their fingers, set against the backdrop of a wall.",1.0,0.8044,0.8639,0.8331
+2xmCKjpuSfQ.24,man black holiday,"A man is standing in front of a camera and discussing the importance of researching before purchasing a new car, mentioning the Procon São Paulo list to avoid potential issues.",0.3333,0.8151,0.8288,0.8219
+42yFzSA1DFk_50.000_60.000,a man month,A baby is lying on its back with its eyes closed while a person speaks in the background.,0.3333,0.7929,0.8271,0.8097
+4KeFV0rAu_0_14.000_24.000,A phone with a broken screen,A person is holding a metal object in their hand and moving it around in a circular motion.,0.3333,0.8457,0.8579,0.8518
+4lUOJNaRy3I.3,man woman wedding microphone,"A man is giving a speech congratulating a couple on their marriage to a group of people, and then a woman is standing next to him.",0.5,0.8233,0.8513,0.8371
+4vtPYQ7cyd0.10,video game gun,A man is standing in a snow covered area and is shooting a bow and arrow at a target.,0.0,0.833,0.8391,0.836
+5_-yllGCcFk.118,boy on the ground,"A little girl is sitting on the ground and trying to do a somersault with her hands, while voices in the background mention a philosophy and question a choice related to ""one dad.""",0.75,0.8227,0.893,0.8564
+5n0xq6pE_mg_300.000_310.000,"A man with a bomb strapped to him, a man firing two gunshots","A group of men are playing rock, paper, scissors while music is playing in the background.",0.0769,0.8427,0.8612,0.8519
+68-QAwB8TdI.1,two men metal sheet,"A man is demonstrating how to sharpen a piece of wood with a sharpening tool in a shop, starting with a thin sheet of brass using shim stock.",0.25,0.8155,0.8491,0.8319
+6duevT5XQjI.12,two men talking on a show,A man and a woman are sitting at a table talking about the impact of seeing massive natural structures like mountains and deserts on their sense of reality.,0.5,0.846,0.9043,0.8742
+7FT1WnwOcxA_40.000_50.000,person table tennis,A group of people are playing ping pong in a room with a ping pong table.,0.3333,0.8423,0.8575,0.8498
+8aKhvS70_zY_40.000_50.000,girl on the bed,A woman is lying on her back on a bed with her eyes closed and her head resting on a pillow.,0.5,0.8316,0.9183,0.8728
+94Y_QnedxB8_11.000_21.000,woman keyboard monitor,A young girl is sitting on a couch and playing a song on a musical instrument with her hands.,0.0,0.8243,0.8344,0.8293
+96VZFklUM_Q.32,man speaker in the wild,"A woman is standing on top of a rock and talking to a man standing next to her about her adaptation to a primal paleo type of diet focused on real, good, clean food.",0.2,0.8264,0.8749,0.85
+9PhmPJ_p_T4.14,man holding a product,A man is standing in front of a mirror holding a pair of scissors and discussing a hot shoe converter called Cornett.,0.75,0.8393,0.8822,0.8602
+A-7BwBBtzUI.89,cartoon man large bird,A person is petting a dog and then a dog is shown being petted by another person.,0.0,0.8478,0.8749,0.8612
+AU1l1i0H0j0_30.000_40.000,spray metal object,A person is demonstrating how to use a paint roller to create a design on a piece of metal.,0.3333,0.8451,0.8695,0.8571
+BPFA7RzzJdM_10.000_20.000,clock rotating gears,A person is holding a gong and hitting it with a mallet while music plays in the background.,0.0,0.8282,0.8312,0.8297
+Bltc4o615qI.43,two men talking on a show,"A man and a woman are sitting in a room, and the man is explaining to the woman how challenging it was to learn a song phonetically, which took him two months.",0.3333,0.8365,0.8794,0.8574
+CZc9MZIxSSc_30.000_40.000,man swings a long whip,A man is standing on the edge of a tree and he is swinging a long string around.,0.6,0.8714,0.8971,0.8841
+CaYNuuW9rt4_11.000_21.000,horse pictures,A horse is being groomed by a person using a strobe light on the back of the horse.,0.5,0.8112,0.8288,0.8199
+CgTc_-A_Gzw_0.000_8.000,audio amplitude notes,A person is demonstrating how to make a tattoo on a piece of paper with music playing in the background.,0.0,0.8135,0.8125,0.813
+D7-F3rQX4VI.4,girl brown hair pigtail pink lips floral dress,"A woman is demonstrating a girly pinup hairstyle using a pink brush, paired with a vintage-inspired look and bright pink lips.",0.25,0.838,0.8297,0.8338
+Fn4ULUxA3KI.21,building race to replace akerson,"A skyscraper is being built on the side of a street, while discussions about Mary Barra possibly replacing Dan Akerson are taking place.",0.2,0.8258,0.8637,0.8443
+GfoyjUOE9Ek.8,hand egg table sofa,"A person is playing a game of rock, paper, scissors in front of a glass table while discussing a scene where Finn is recognized by a stormtrooper who calls him a traitor.",0.25,0.8095,0.824,0.8167
+HTBxRn8Sbyc_7.000_17.000,tree wood river forest machine,A man is skillfully operating a bulldozer to cut through a log of wood in a wooded area.,0.2,0.8449,0.8487,0.8468
+INNIheBpNKY.22,andre snellings hoopslab,A person is demonstrating how to do a certain type of calligraphy.,0.0,0.8273,0.7796,0.8027
+IauuGcFwWZg.49,men grass,A man on a golf course is demonstrating how to hit a golf ball with a golf club while explaining the importance of maintaining the landing areas for players.,0.0,0.8121,0.8284,0.8201
+Jk5dHnmduAg_320.000_330.000,birds sky,A person is flying a kite in the sky with a lot of birds in the background.,1.0,0.8474,0.8765,0.8617
+Jy04Fe2rNmw.2,man case steel,A man is holding a remote control and shows it to a woman who is sitting on a couch while discussing how to attach a loop to a backpack using a durable stainless steel belt.,0.6667,0.8237,0.8303,0.827
+KzzKguqINa8_100.000_110.000,man piano,A person is skillfully playing a song on an electric keyboard with music accompaniment in the background.,0.0,0.8206,0.868,0.8436
+LOVcimphxEc.1,man woman couch,"A man and a woman are sitting in a living room, discussing a movie they are watching and the topic of tears and crying in land mammals comes up in their conversation.",0.6667,0.8071,0.8368,0.8217
+Ln0Epmhtvao_150.000_160.000,man instrument music hall,A woman is standing in front of a stage and playing a song on a saxophone in front of a crowd.,0.0,0.8434,0.8346,0.839
+LrL3EbvtOVw.40,cartoon light electricity smoke,"A person is standing in front of a wall with flashing lights and music is playing in the background, while discussing battery damage.",0.0,0.807,0.8226,0.8147
+Meshocn2mZQ_30.000_40.000,man dance,A man is standing in the middle of a room and is dancing to music in the background.,0.5,0.8209,0.8662,0.8429
+MrisGbNESmA.2,woman speaker,"A man is standing in front of a group of people, holding a drum stick, while addressing them with words of encouragement and support.",0.0,0.8207,0.8504,0.8353
+NAIQyoPcjNM.11,chess,A man and a woman are playing a game of chess while another man provides commentary on the game's strategy.,1.0,0.7974,0.8226,0.8098
+NYl0fGcNVl0.6,election campaign,A group of men and women are standing in front of a microphone and discussing the ANC's ongoing campaign efforts and their expectations for an overwhelming victory.,0.5,0.8146,0.8753,0.8439
+Olrb-mdHJ7s_150.000_160.000,mouse wheel,A person is holding a cat in a cage while the cat is preparing to lay down inside.,0.0,0.7977,0.8136,0.8055
+OseeYF_ud7g_120.000_130.000,man music instrument,A man is playing a musical instrument in front of a group of people in a dark room.,0.6667,0.8358,0.8841,0.8593
+P2TWje4lsgQ.7,skate shoe man,"A man is demonstrating how to put on a pair of shoes while mentioning that the fiberglass wheels are very slippery, with music playing in the background.",0.3333,0.8228,0.8747,0.8479
+P9keWnQjNJY_20.000_30.000,grass chicken,A person is standing on the edge of a wooded area while another person throws a knife at him.,0.0,0.8226,0.8231,0.8228
+Q9zKGzm4qnI.17,man,"A man is standing in front of a wall, talking to another man in the background, while discussing his thoughts about trying food that he found really good and would eat again.",1.0,0.7877,0.821,0.804
+QJgUEYFR49Y.46,man garage car shop,A man is giving a motivational speech to the camera about encouraging newcomers and taking initiative.,0.25,0.8485,0.8468,0.8477
+QPHZ8rHeIXo.8,man boy cage,A man throws a bow and arrow at a target and then throws it back at the target.,0.3333,0.8241,0.8558,0.8396
+R7ls6ZQJ5UM_570.000_580.000,cartoon dolphin sea mountain tree,A group of people are standing on top of a waterfall with a boat visible in the background.,0.0,0.8432,0.8396,0.8414
+RX5jaZv52rQ_280.000_290.000,man nail tools,A man is skillfully using a knife to cut a piece of meat on a cutting board.,0.3333,0.8358,0.8339,0.8348
+S2AfkLBFuP4.8,windows computer program,A person is sitting in front of a computer screen and playing a game with music playing in the background.,0.3333,0.8174,0.8611,0.8387
+SlcWZ2TKjnM_140.000_150.000,anime,A person is playing a video game in front of a wall with music playing in the background.,0.0,0.7835,0.8221,0.8023
+Sv9fcuRfk2o_70.000_80.000,men drink car road,A group of people are standing in a parking lot and one of them is drinking from a bottle.,0.0,0.8155,0.8354,0.8254
+TiFboW8mqd4_30.000_40.000,parrot mirror staircase,A cat is sitting on top of a person's hand while the person is talking to the cat.,0.0,0.8125,0.7905,0.8014
+UbpTXBNIXtQ.18,apple computer program image,"A man is standing in front of a fence, using a garden hose to cut through it while discussing adding warmth and editing in Lightroom.",0.0,0.8064,0.8228,0.8145
+UmWkmGAu5Hc.14,tool metal,"A person is using a hammer and chisel to remove a piece of metal from a car, while mentioning the need to make stress relief cuts on both sides.",0.5,0.8064,0.8591,0.8319
+Uq3iKbCNDCM_60.000_70.000,man violin church,A man is playing a violin and a woman is playing a piano in front of a group of people.,0.6667,0.8373,0.87,0.8533
+W7gn2todzbg_30.000_40.000,alarm bell,A person is standing in front of a mirror and using a dartboard to move around.,0.0,0.8124,0.7947,0.8035
+Wtll1g9i0M8.15,man scarf blue,"A young man is sitting in front of a camera, making funny faces with his eyebrows while humorously discussing the complications in the Harry Potter series.",0.3333,0.7998,0.8302,0.8147
+YSsSpw_t0I4.45,woman makeup mirror,"A young girl is applying makeup to her face with a brush, explaining her technique for shaping her natural eyebrows by removing stray hairs.",0.3333,0.8379,0.8656,0.8515
+ZHSPLH5-zvw_50.000_60.000,man drum kit,A man is sitting at a drum set and playing the cymbals with a drum stick.,0.6667,0.842,0.8862,0.8636
+ZX7EzqMBjfo_160.000_170.000,yellow leaves piano,A young boy is sitting in front of a piano and playing a song from sheet music.,0.3333,0.8337,0.8221,0.8279
+ZZKUxUjdcQw.17,woman baby,"A baby is sitting on a man's lap as the man, expressing a playful exasperation, says, ""What am I gonna do with this here, its an insanity. Look,"" while trying to touch the baby's head.",0.5,0.8071,0.9138,0.8571
+_PtMggNfNHY.1,man park,"A man is standing in front of a camera, talking about a project he is working on, and mentions setting up something in the garage for Nicole and PJ.",0.5,0.8113,0.8316,0.8214
+_dXv_q8ierI.19,man backpack fishing rod,A man is sitting on top of a wheelbarrow while another man holds the wheelbarrow in his hands.,0.25,0.8211,0.8569,0.8386
+a7g3P1HGV4E_0.000_7.000,tree wind indicator,"A person is standing on a bridge, moving a sail attached to the end of the bridge across it.",0.0,0.7992,0.8334,0.8159
+aAzt7VFvhH0.5,game console cartoon,"A person is playing a video game in front of a large screen with music playing in the background, highlighting the appeal of Super Smash Brothers for its fun and social experience.",0.3333,0.8141,0.8366,0.8252
+aoRW7iWXwoM.31,man walk sidewalk,"A man is walking down a sidewalk, stops to look at the camera twice, in front of a very large photo and video store reminiscent of an iron palace.",0.6667,0.817,0.8577,0.8368
+b4G1my-YWoU.13,dog woman snow ice lake boot winter,"A person is walking on a snow-covered trail, a dog named Hana is enjoying the snow, illustrating how thin the ice is as it cracks beneath footsteps, highlighting Hana's familiarity with the area.",0.4286,0.8153,0.8483,0.8314
+brRabaaeoy4.36,bread sauce plate,"A person is demonstrating food preparation in a pan, humorously commenting on the process and adding extra ingredients for fun.",0.0,0.829,0.8295,0.8292
+bvoF_lFC_gg.59,man table chair backpack,"A man is sitting on the floor using his fingers to touch a piece of paper, possibly demonstrating a concept related to fitting numbers or objects within a space, as suggested by his speech.",0.25,0.8074,0.8071,0.8072
+cJGg7_oC-wM_70.000_80.000,woman massage balcony man,A woman is sitting on a chair along with several other women each seated on their own chairs.,0.25,0.8021,0.8379,0.8196
+clJZQsQzGCA_490.000_500.000,bell,A group of people are standing on top of a mountain and one of them is holding a flashlight.,0.0,0.7896,0.8291,0.8089
+d3or4p2BXx0_260.000_270.000,television,"A person is standing in front of a screen, attentively watching a video of a video game.",0.0,0.7782,0.8098,0.7937
+e3BdNhbiDwA_230.000_240.000,juicer arm watch,A person is pouring beer from a tap into a glass and then pouring it back into the tap.,0.0,0.816,0.8014,0.8086
+e6Df7Ocuqcs_180.000_190.000,dog forest,A person is climbing a tree with a chainsaw while a dog is barking in the background.,0.5,0.816,0.8309,0.8234
+eRiuGf1nzM0.3,woman newsroom,"A woman is standing in front of a news screen, reporting to the camera about a float plane crash off the coast of central BC that resulted in the deaths of four people.",0.5,0.798,0.8079,0.8029
+evy2azZk3kE_40.000_50.000,man instrument harp,A woman is singing a song on a cello while a man is playing a guitar in the background.,0.3333,0.8294,0.8162,0.8228
+fWwV7o4VjEQ_30.000_40.000,paint woman,A woman is holding a piece of jewelry in her hand and she is showing it to the camera.,0.5,0.8343,0.8984,0.8652
+g7sVjiG-ytg_110.000_120.000,computer screen white stripes,A person is playing a pinball machine while music is playing in the background.,0.0,0.8373,0.8167,0.8269
+h8myevRe4r0_0.000_10.000,text,A person is standing in front of a camera and is demonstrating how to use a crystal ball.,0.0,0.7965,0.8174,0.8068
+hJYU3nBSyFo_10.000_20.000,red car,A person is using a hose to remove a tire from the back of a motor vehicle while music is playing.,0.0,0.8154,0.8491,0.8319
+izQ3nLG4wU0.12,man table basketball game,"A group of men are playing a game of ping pong in front of a crowd of people, reminiscent of the mastery and skill associated with the Golden State Warriors' gameplay.",0.25,0.8302,0.8547,0.8422
+j53tAI-EGcI_30.000_40.000,deer cuckoo clock,A person is sitting on a chair and playing with a large wooden toy that is on a table.,0.0,0.8225,0.7988,0.8104
+jn9rHjphwtY.3,TV program woman man,A newscaster discusses a sickness while expressing concern for someone named Donald.,0.0,0.8272,0.8307,0.829
+kVDixF4dN3g.9,woman people lecture flower stone,"A man is standing in front of a group of people, discussing his experience of never having heard a particular statement in 40 years and mentioning the end of a season.",0.2,0.8245,0.8599,0.8418
+mAG7Kwi9KOI.71,dog shoes woman clothes man,"A woman is holding a baby in her arms while a man talks to her, possibly discussing his plans to visit a friend's house, mentioning that he has some Pedialyte and that Rebecca believes he has already left.",0.4,0.7925,0.8193,0.8057
+mNsYlojC_kM_230.000_240.000,woman street skateboard people overpass house chair bridge,A young man performs impressive skateboard flips in front of an audience.,0.125,0.8746,0.8469,0.8605
+ockTDkyCbiY.22,man coat glove hat tree snow,"A man is standing in the middle of the road, talking to the camera about his beard and discussing the lack of deep, meaningful conversations he experiences compared to those in Germany.",0.1667,0.8142,0.7963,0.8052
+p63sYVCLVUk_30.000_40.000,man grinder metal,A man is using a tool to chip away at a piece of metal while music plays in the background.,0.6667,0.8381,0.8257,0.8319
+pZF-hff52ts_60.000_70.000,sniper scope gun shoot soldier compass video game,A person is demonstrating how to use a remote control to navigate through a forested area.,0.0,0.8526,0.8283,0.8403
+piYDsIrSvME.27,man trees,"A man is speaking in a foreign language in front of a microphone in front of a group of people, promoting his channel and encouraging viewers to subscribe, like, and comment.",0.5,0.7956,0.8481,0.821
+prmGPzSpZtg.20,people crowd convention paper car,"A group of people are standing around a race car, discussing what they are going to do next, with someone emphasizing to be nice to a brother and expressing amazement.",0.4,0.8102,0.8311,0.8206
+pyehK5UGPk8.17,man coat wall glasses room,"A man is standing in front of a wall, discussing a vehicle inspection and pricing process in a foreign language to a group of people.",0.4,0.8258,0.8323,0.829
+r5kMQR8qbcQ_30.000_40.000,wind bell wild trees flower,A person is using a hammer to hit a large metal object in a wooded area with a wooden stick.,0.0,0.8343,0.8223,0.8283
+rCqVWGlMXcY.1,man shirt brick wall logo earth,"A man is talking to the camera and then the camera cuts to another man talking to the camera and then another man talking to the camera, discussing a medical issue humorously.",0.1667,0.8109,0.8237,0.8172
+rzHXGinD6ZE_20.000_30.000,woman dress door Spider-Man car,A person is playing with a piece of paper while music plays in the background and people are talking.,0.0,0.8455,0.8272,0.8363
+s8UnuTvElzQ_0.000_10.000,instrument red carpet,A person is demonstrating a technique to make marbles stick together while playing with them.,0.0,0.8106,0.7999,0.8052
+sEHxWBHUAlM.121,man room computer motherboard box mouse,A young man and a young woman are demonstrating how to use a hammer to hit a piece of furniture while discussing posture and making casual conversation.,0.1667,0.821,0.8168,0.8189
+uKGo4phKqLM_10.000_20.000,woman crowd dance,A woman is performing a belly dance in front of a crowd of people in a dance studio.,1.0,0.8623,0.8881,0.875
+uLWBKxHSwyY.36,man red shirt hat room green fire tree rollercoaster,A man throws a frisbee at a target in front of a large group of people.,0.1111,0.836,0.8052,0.8203
+uLcn-Q-TLO8.39,dog golden retriever floor woman room glass,"A woman is giving instructions on how to treat a dog that is lying on the floor with treats, while mentioning the importance of keeping the dog on a leash both inside and outside the house at all times.",0.4286,0.8122,0.8216,0.8169
+v266CJ4-yhA.12,host TV man woman,A woman and a man are sitting at a table talking about a dramatic event while playing a game of Scrabble.,0.5,0.8129,0.8437,0.828
+vB00cAT5iPo_60.000_70.000,hamster white broccoli table,A cat is laying on a table while a person plays with it and talks about it.,0.25,0.8206,0.7937,0.8069
+wC-L0S7Lz_0.46,knife rope glove paper floor,"A person is demonstrating how to sharpen a knife with a sharpener and a small tool, while also discussing the use of a rope cutter for cutting rope more effectively.",0.4,0.8224,0.8259,0.8241
+wllkJ2lazaI.4,man earth space ocean,"A young man is sitting in front of a camera with a microphone in his mouth, while discussing scientific theories about the origin of Earth's water, including ideas about it coming from within the planet or from comets in outer space.",0.5,0.8064,0.8493,0.8273
+xfNeZaw4o3U_17.000_27.000,man bicycle bike road street,A person is riding a bike down a street in a parking lot while music is playing in the background.,0.4,0.8449,0.8754,0.8599
+y2ZbO4KBLnY.3,man motorcycle road sunglasses,"A man is riding a motorcycle in the middle of the street, talking to a group of people about the Harley-Davidson Breakout with a 1690 cc motor and a Victory Gunner.",0.5,0.8181,0.8594,0.8382
+yBYd03Hr2kQ_320.000_330.000,instrument guitar pedal,A person is demonstrating how to use an electronic device to control buttons on a remote control panel.,0.0,0.8327,0.8133,0.8229
+z3xiKSDoZEI_160.000_170.000,scissors cloth table,A woman is demonstrating how to fold a t-shirt using a piece of fabric on a table.,0.3333,0.8429,0.8486,0.8457
+zUCZ4R0NNes_0.000_10.000,woman sofa,A woman is laying on a bed with her head on a pillow while another person is sleeping.,0.5,0.8194,0.8515,0.8352
+zZU-PJA5Woo_30.000_40.000,band instruments,A group of people are standing in front of another group and they are singing a song.,0.0,0.823,0.8269,0.8249
+ze0vbGinCyY.54,men room table,"A man and a woman are sitting at a table, possibly discussing something competitive, as they talk to each other in a foreign language.",0.3333,0.8055,0.8204,0.8129

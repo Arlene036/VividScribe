@@ -1,0 +1,6 @@
+{
+    "avg_objectlabels_rouge1_recall": 0.322,
+    "avg_objectlabels_bert_precision": 0.8332,
+    "avg_objectlabels_bert_recall": 0.8534,
+    "avg_objectlabels_bert_f1": 0.843
+}

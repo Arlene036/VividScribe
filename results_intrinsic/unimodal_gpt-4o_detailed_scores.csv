@@ -1,0 +1,118 @@
+video_id,objectlabels_groundtruth,generated_caption,objectlabels_rouge1_recall,objectlabels_bert_precision,objectlabels_bert_recall,objectlabels_bert_f1
+-EZDd29Id-A.21,man battery circuit tools,A person is disassembling and examining the internal components of a green electronic device.,0.0,0.8432,0.8468,0.845
+-Vo4CAMX26U_30.000_40.000,instrument man outside,A person plays a didgeridoo while sitting on rocks in a natural setting.,0.0,0.8355,0.8815,0.8579
+-rr68KmhIzc.20,man woman video game,"A man in bed is surprised by a woman leaning over him, followed by a scene featuring a superhero in a high-tech environment.",0.5,0.8357,0.8638,0.8495
+0A5UYpuxRQg.10,woman patch cup drinks,"A blindfolded woman participates in a taste test, guessing the contents of a glass are cream.",0.25,0.8304,0.8262,0.8283
+1c7NBk1x3y0_30.000_40.000,black car white house,A sleek black sports car is parked in a driveway on a sunny day.,0.5,0.8435,0.848,0.8457
+1lfmwRJYins.9,man TV video game,"A man is enthusiastically playing an interactive punching game at a tech event, aiming to achieve a high score.",0.5,0.845,0.846,0.8455
+2Tx5L5RBXxw_200.000_210.000,water fish fishing rod,"A fish swims playfully in a creek while the text ""Elle fait la maline :)"" appears on screen.",0.25,0.8038,0.8487,0.8256
+2gc1L3g1itU_20.000_30.000,piano fingers,"A person skillfully plays a piano piece, demonstrating a smooth and coordinated flow across the keys.",0.5,0.8204,0.8299,0.8251
+2xmCKjpuSfQ.24,man black holiday,A man discusses a Procon announcement about websites to avoid during Black Friday.,0.6667,0.8263,0.8539,0.8399
+42yFzSA1DFk_50.000_60.000,a man month,"A close-up video captures someone's face in a relaxed, resting position with closed eyes.",0.3333,0.8063,0.8238,0.815
+4KeFV0rAu_0_14.000_24.000,A phone with a broken screen,"A smartphone with a cracked screen is shown up close, highlighting the details of the damage.",0.6667,0.8994,0.9498,0.9239
+4lUOJNaRy3I.3,man woman wedding microphone,"A couple happily exchanges vows at a wedding, followed by a lively discussion on a talk show.",0.25,0.8538,0.8629,0.8583
+4vtPYQ7cyd0.10,video game gun,"A player navigates a snowy, mountainous landscape and then prepares for a countdown to begin a mission in an urban environment.",0.0,0.8276,0.8414,0.8345
+5_-yllGCcFk.118,boy on the ground,"A child playfully rolls on the ground, covering their face with their hands, then looks up smiling.",0.75,0.8322,0.889,0.8596
+5n0xq6pE_mg_300.000_310.000,"A man with a bomb strapped to him, a man firing two gunshots","In a tense nighttime scene, individuals are caught in a dramatic confrontation leading to a massive explosion.",0.3077,0.8765,0.8696,0.873
+68-QAwB8TdI.1,two men metal sheet,"Two individuals demonstrate a metalwork process, showcasing a metal sheet on a workbench.",0.75,0.8486,0.8728,0.8605
+6duevT5XQjI.12,two men talking on a show,A talk show host animatedly gestures during an engaging conversation with a scientist.,0.3333,0.8769,0.8932,0.885
+7FT1WnwOcxA_40.000_50.000,person table tennis,"A person is playing ping pong, returning the ball across the table with a paddle.",0.6667,0.8316,0.8522,0.8417
+8aKhvS70_zY_40.000_50.000,girl on the bed,"A girl is lying down on a pillow with her eyes closed, appearing relaxed or asleep.",0.5,0.8392,0.8981,0.8677
+94Y_QnedxB8_11.000_21.000,woman keyboard monitor,A woman types on a keyboard at her desk before the scene shifts to a television studio with a host introducing the segment.,0.6667,0.8214,0.8627,0.8416
+96VZFklUM_Q.32,man speaker in the wild,A man in a blue shirt speaks passionately while sitting outdoors with a scenic mountain backdrop.,0.4,0.8407,0.8854,0.8625
+9PhmPJ_p_T4.14,man holding a product,A person is enthusiastically showcasing a new Sony camera accessory at a tech expo.,0.25,0.8692,0.8898,0.8793
+A-7BwBBtzUI.89,cartoon man large bird,"A man encounters a cassowary in the forest, demonstrating that while attacks are rare, offering food is not advised.",0.25,0.8412,0.8758,0.8581
+AU1l1i0H0j0_30.000_40.000,spray metal object,A chrome spray is being applied to a car wheel to achieve a metallic finish.,0.3333,0.8433,0.8608,0.852
+BPFA7RzzJdM_10.000_20.000,clock rotating gears,A decorative wall clock features rotating and rearranging number panels in a mesmerizing display.,0.6667,0.8497,0.8849,0.8669
+Bltc4o615qI.43,two men talking on a show,A guest in a black suit enthusiastically converses with the talk show host.,0.3333,0.8676,0.8947,0.881
+CZc9MZIxSSc_30.000_40.000,man swings a long whip,A man is energetically chopping wood with an axe in a leafy outdoor setting.,0.4,0.8616,0.8887,0.8749
+CaYNuuW9rt4_11.000_21.000,horse pictures,A horse in a meadow raises its head before the scene switches to a close-up of a bridled horse against a plain background.,0.5,0.794,0.8185,0.8061
+CgTc_-A_Gzw_0.000_8.000,audio amplitude notes,A vibrant and dynamic music visualization animates as colorful sound waves and musical notes pulse to a rhythm.,0.3333,0.8166,0.8369,0.8266
+D7-F3rQX4VI.4,girl brown hair pigtail pink lips floral dress,"A woman in a floral dress showcases a vintage-inspired look and makeup, then styles her hair in a bathroom.",0.375,0.8347,0.822,0.8283
+Fn4ULUxA3KI.21,building race to replace akerson,"The video clip discusses the competition to replace Akerson at GM, featuring shots of the company's headquarters.",0.6,0.852,0.8967,0.8738
+GfoyjUOE9Ek.8,hand egg table sofa,"A person is examining a Star Wars-themed surprise egg, rotating it in their hands.",0.25,0.8329,0.8503,0.8415
+HTBxRn8Sbyc_7.000_17.000,tree wood river forest machine,A forestry machine processes a tree trunk in a wooded area.,0.4,0.8749,0.8713,0.8731
+INNIheBpNKY.22,andre snellings hoopslab,"The video clip features an audio-only presentation by Andre Snellings titled ""Hoopslab.""",0.6667,0.8357,0.8551,0.8453
+IauuGcFwWZg.49,men grass,A man in a black outfit prepares to take a golf shot on a grassy course while others watch in the background.,0.0,0.8166,0.8693,0.8421
+Jk5dHnmduAg_320.000_330.000,birds sky,A flock of birds soars and maneuvers gracefully against a cloudy sky.,1.0,0.8428,0.8949,0.8681
+Jy04Fe2rNmw.2,man case steel,"A person demonstrates folding a ""bushcraft essentials"" bag outdoors.",0.0,0.8348,0.8082,0.8213
+KzzKguqINa8_100.000_110.000,man piano,A musician demonstrates a synthesizer keyboard by playing various sound pads in a music shop.,0.0,0.817,0.862,0.8389
+LOVcimphxEc.1,man woman couch,A cheerful woman enthusiastically explains something next to a pensive man on a colorful pile of cushions.,0.6667,0.8373,0.853,0.8451
+Ln0Epmhtvao_150.000_160.000,man instrument music hall,A percussionist performs during a concert with a full orchestra in a grand concert hall.,0.25,0.8649,0.8544,0.8596
+LrL3EbvtOVw.40,cartoon light electricity smoke,"Electricity surges through a device, causing a smoky malfunction on one side.",0.25,0.8305,0.8309,0.8307
+Meshocn2mZQ_30.000_40.000,man dance,A silhouette of a person dances energetically against a blue background.,0.0,0.8158,0.8724,0.8431
+MrisGbNESmA.2,woman speaker,"A person passionately delivers a speech through a megaphone at an outdoor protest, with a group of people gathered around holding signs.",0.0,0.8098,0.8518,0.8303
+NAIQyoPcjNM.11,chess,A 3D simulation shows a sequence of chess moves with colored highlights indicating possible moves and positions.,1.0,0.7927,0.842,0.8166
+NYl0fGcNVl0.6,election campaign,"The video clip shows Magashule refuting allegations of election list tampering during a news conference and public gathering, with commentary from ANC Head of Elections, Fikile Mbalula.",0.5,0.7795,0.845,0.8109
+Olrb-mdHJ7s_150.000_160.000,mouse wheel,A small rodent runs energetically on a wheel inside its cage.,0.5,0.8144,0.8542,0.8338
+OseeYF_ud7g_120.000_130.000,man music instrument,A musician skillfully plays the sitar during a live performance.,0.0,0.838,0.8628,0.8502
+P2TWje4lsgQ.7,skate shoe man,People are preparing their roller skates before gliding and dancing on a colorful rink.,0.0,0.8069,0.8273,0.817
+P9keWnQjNJY_20.000_30.000,grass chicken,A group of chickens and turkeys explore a grassy field near a fenced area in a peaceful farm setting.,0.0,0.8243,0.8885,0.8552
+Q9zKGzm4qnI.17,man,"A man is speaking directly to the camera in a calm, professional setting with shelves in the background.",1.0,0.8016,0.8263,0.8138
+QJgUEYFR49Y.46,man garage car shop,"A group of people in a garage workshop discuss and work on a red vintage car, with various tools and tires visible around them.",0.5,0.8449,0.9011,0.8721
+QPHZ8rHeIXo.8,man boy cage,A person inspects a mesh-enclosed outdoor habitat structure.,0.0,0.8629,0.8536,0.8582
+R7ls6ZQJ5UM_570.000_580.000,cartoon dolphin sea mountain tree,A playful dolphin jumps out of the water near a scenic cliffside under a bright blue sky.,0.2,0.8489,0.8613,0.8551
+RX5jaZv52rQ_280.000_290.000,man nail tools,A person skillfully uses a hand saw to cut through a wooden plank secured on a workbench.,0.0,0.8262,0.8401,0.8331
+S2AfkLBFuP4.8,windows computer program,A Tomb Raider game is being installed on a computer while the progress bar gradually fills up.,0.3333,0.829,0.8756,0.8516
+SlcWZ2TKjnM_140.000_150.000,anime,"In a romantic scene at sunset, a heartfelt message about lost love unfolds.",0.0,0.8176,0.8251,0.8213
+Sv9fcuRfk2o_70.000_80.000,men drink car road,"Two people are casually walking through a parking lot, each carrying a drink.",0.25,0.836,0.8407,0.8384
+TiFboW8mqd4_30.000_40.000,parrot mirror staircase,"A cockatiel interacts with its reflection in a mirror, seemingly curious and playful.",0.3333,0.8404,0.835,0.8377
+UbpTXBNIXtQ.18,apple computer program image,A photo of a garden scene with a bench undergoes editing adjustments in Adobe Lightroom to enhance its visual appeal.,0.0,0.8206,0.8421,0.8312
+UmWkmGAu5Hc.14,tool metal,A mechanic inspects and points out details on a worn vehicle part with visible damage.,0.0,0.8201,0.8244,0.8222
+Uq3iKbCNDCM_60.000_70.000,man violin church,"A man in a red sweater listens intently as a violinist performs passionately in an elegant, empty concert hall.",0.3333,0.821,0.8751,0.8472
+W7gn2todzbg_30.000_40.000,alarm bell,Two vintage alarm clocks are shown side by side as their hands tick away the time on a shelf.,0.5,0.8067,0.8008,0.8037
+Wtll1g9i0M8.15,man scarf blue,"A young man enthusiastically discusses a topic on camera, humorously correcting himself after using the word ""loophole.""",0.3333,0.8064,0.8293,0.8177
+YSsSpw_t0I4.45,woman makeup mirror,A person is applying makeup while looking into a small mirror.,0.6667,0.875,0.9189,0.8964
+ZHSPLH5-zvw_50.000_60.000,man drum kit,A drummer passionately plays an energetic drum solo in a studio setting.,0.3333,0.8595,0.889,0.874
+ZX7EzqMBjfo_160.000_170.000,yellow leaves piano,"A person plays an organ, transitioning from a view of colorful leaves to the musician.",0.3333,0.8382,0.8536,0.8458
+ZZKUxUjdcQw.17,woman baby,"A baby in a polka dot outfit sits on a woman's lap, curiously looking around and reaching towards the camera.",0.5,0.8249,0.9212,0.8704
+_PtMggNfNHY.1,man park,A man wearing a hat talks outdoors in front of a wooden playground on a cloudy day.,0.5,0.8232,0.8409,0.8319
+_dXv_q8ierI.19,man backpack fishing rod,A person is organizing equipment and supplies in a fishing kayak.,0.25,0.8692,0.8918,0.8804
+a7g3P1HGV4E_0.000_7.000,tree wind indicator,A vertical wind turbine steadily rotates against a cloudy sky.,0.3333,0.8438,0.8796,0.8613
+aAzt7VFvhH0.5,game console cartoon,"Animated characters engage in a dynamic battle on a Sony PS Vita screen, showcasing an action-packed gaming experience.",0.0,0.8412,0.8635,0.8522
+aoRW7iWXwoM.31,man walk sidewalk,"A person enthusiastically walks through a construction-covered sidewalk in a bustling city, sharing their excitement.",0.3333,0.8462,0.8672,0.8565
+b4G1my-YWoU.13,dog woman snow ice lake boot winter,"A playful black dog is running around in the snowy outdoors near a frozen pond, while a person in a purple coat walks on the ice.",0.2857,0.8276,0.8527,0.84
+brRabaaeoy4.36,bread sauce plate,A person prepares toasted buns with Thousand Island dressing on a kitchen counter.,0.0,0.8238,0.8392,0.8315
+bvoF_lFC_gg.59,man table chair backpack,"A person playfully hops onto a box, pretending to play an invisible piano on a bench in a room.",0.0,0.8314,0.8193,0.8253
+cJGg7_oC-wM_70.000_80.000,woman massage balcony man,A person is receiving a massage on an outdoor patio while seated on a chair designed for back massages.,0.25,0.8342,0.8664,0.85
+clJZQsQzGCA_490.000_500.000,bell,"The video clip features close-up views of a large bell, possibly being rung.",1.0,0.8025,0.8425,0.822
+d3or4p2BXx0_260.000_270.000,television,A flickering screen displaying static on an old TV gradually fades to black.,0.0,0.7939,0.8137,0.8037
+e3BdNhbiDwA_230.000_240.000,juicer arm watch,A person is blending a pink smoothie in a blender.,0.0,0.8355,0.8062,0.8206
+e6Df7Ocuqcs_180.000_190.000,dog forest,"A dog is seen exploring a dense, green forest.",1.0,0.855,0.892,0.8732
+eRiuGf1nzM0.3,woman newsroom,A news anchor delivers a report in a bustling newsroom.,0.5,0.8349,0.8524,0.8436
+evy2azZk3kE_40.000_50.000,man instrument harp,"A performer passionately sings and plays the harp on stage, wearing a colorful garment.",0.3333,0.854,0.8562,0.8551
+fWwV7o4VjEQ_30.000_40.000,paint woman,A mysterious video clip transitions from a painted face on hands to a young woman standing calmly beside a heart-marked post.,0.5,0.805,0.8767,0.8393
+g7sVjiG-ytg_110.000_120.000,computer screen white stripes,A video clip shows a music production software interface with visual elements of a keyboard and promotional images.,0.0,0.8234,0.822,0.8227
+h8myevRe4r0_0.000_10.000,text,"The video clip reveals the ""Dream Up"" project, highlighting ""The Revelation"" with over 20 tracks.",0.0,0.8012,0.8176,0.8093
+hJYU3nBSyFo_10.000_20.000,red car,A red car with a modified exhaust system emits puffs of smoke as it idles in place.,1.0,0.82,0.8928,0.8548
+izQ3nLG4wU0.12,man table basketball game,"In the video clip, Scottie Pippen discusses the 1995-96 Chicago Bulls' historic 72-win regular season during a roundtable interview, alongside footage of NBA Finals action.",0.0,0.795,0.8324,0.8133
+j53tAI-EGcI_30.000_40.000,deer cuckoo clock,"The video clip captures a close-up, downward pan of a detailed wooden deer carving.",0.3333,0.8271,0.8176,0.8223
+jn9rHjphwtY.3,TV program woman man,"The video clip features a discussion on MSNBC about a tweet from Donald Trump criticizing other morning shows and praising ""Fox and Friends"" for their ratings.",0.0,0.8069,0.829,0.8178
+kVDixF4dN3g.9,woman people lecture flower stone,"An elderly woman speaks passionately at a public meeting, followed by two men inspecting large wooden structures outdoors.",0.2,0.857,0.8621,0.8595
+mAG7Kwi9KOI.71,dog shoes woman clothes man,A person interacts with dogs at home before speaking to the camera in an elevator.,0.0,0.8318,0.8044,0.8179
+mNsYlojC_kM_230.000_240.000,woman street skateboard people overpass house chair bridge,"A skateboarder attempts a trick under a bridge, ending with a fall, and later stands up smiling.",0.125,0.8601,0.8611,0.8606
+ockTDkyCbiY.22,man coat glove hat tree snow,A man outdoors in a snowy setting appears to be speaking passionately while gesturing expressively.,0.1667,0.813,0.8036,0.8083
+p63sYVCLVUk_30.000_40.000,man grinder metal,A craftsman skillfully sharpens and polishes straight razors in a workshop.,0.0,0.825,0.8172,0.8211
+pZF-hff52ts_60.000_70.000,sniper scope gun shoot soldier compass video game,"A sniper takes aim from a distance, eliminating a guard, before navigating through a snowy base with crates and a fallen enemy.",0.125,0.8355,0.8371,0.8363
+piYDsIrSvME.27,man trees,A man standing outdoors speaks to the camera while a message encourages viewers to give the video a thumbs up.,0.5,0.8172,0.8489,0.8328
+prmGPzSpZtg.20,people crowd convention paper car,A group of people enthusiastically gather around a hand-drawn sketch of a blue sports car at a car show.,0.4,0.8472,0.8469,0.847
+pyehK5UGPk8.17,man coat wall glasses room,A person is explaining something in a partially constructed room with exposed brick walls.,0.2,0.8424,0.8342,0.8383
+r5kMQR8qbcQ_30.000_40.000,wind bell wild trees flower,"A large wooden wind chime sways gently in a lush, green garden setting.",0.2,0.8437,0.8332,0.8384
+rCqVWGlMXcY.1,man shirt brick wall logo earth,A person is introduced in a video segment featuring news-related graphics and a host speaking against a backdrop with a logo.,0.1667,0.8155,0.8314,0.8234
+rzHXGinD6ZE_20.000_30.000,woman dress door Spider-Man car,"A playful animated character strolls past a door, transitions to a superhero posing by a yellow car, and concludes with whimsical ""The End"" and ""Special Scene"" titles.",0.4,0.8299,0.8485,0.8391
+s8UnuTvElzQ_0.000_10.000,instrument red carpet,A hand spins a small wooden dumbbell-like object before setting it down on a red surface.,0.3333,0.7916,0.7999,0.7957
+sEHxWBHUAlM.121,man room computer motherboard box mouse,Two individuals discuss and assemble a computer setup featuring ASUS components in a tech-focused video.,0.1667,0.8481,0.8434,0.8457
+uKGo4phKqLM_10.000_20.000,woman crowd dance,"A performer energetically dances on stage, capturing the attention of an enthusiastic crowd.",0.3333,0.8587,0.9015,0.8796
+uLWBKxHSwyY.36,man red shirt hat room green fire tree rollercoaster,A man discusses something indoors while a large explosion occurs near a roller coaster outside.,0.1111,0.8508,0.8339,0.8422
+uLcn-Q-TLO8.39,dog golden retriever floor woman room glass,"A woman explains while two dogs play on the floor, later joined by a third dog.",0.4286,0.8404,0.8234,0.8318
+v266CJ4-yhA.12,host TV man woman,"The video clip features a lively discussion on a talk show about the conclusion of ""Game of Thrones"" after eight seasons.",0.0,0.8109,0.8219,0.8164
+vB00cAT5iPo_60.000_70.000,hamster white broccoli table,A cute hamster enjoys munching on a piece of broccoli at a small table.,0.75,0.8406,0.8496,0.8451
+wC-L0S7Lz_0.46,knife rope glove paper floor,A person demonstrates the handling and cutting capabilities of a folding knife on promotional materials.,0.2,0.8406,0.8089,0.8244
+wllkJ2lazaI.4,man earth space ocean,A person is presenting information about Earth while a rotating globe is displayed in the background.,0.25,0.8299,0.8441,0.837
+xfNeZaw4o3U_17.000_27.000,man bicycle bike road street,A person rides a bicycle from a driveway onto the road and continues down a hilly path surrounded by trees.,0.4,0.8477,0.8804,0.8638
+y2ZbO4KBLnY.3,man motorcycle road sunglasses,Two motorcyclists showcase and discuss their bikes while taking a ride through an urban area and stopping at a dock.,0.0,0.8408,0.8682,0.8543
+yBYd03Hr2kQ_320.000_330.000,instrument guitar pedal,A person adjusts the knobs on a Dr. Scientist Cosmichorus effects pedal.,0.3333,0.8256,0.849,0.8372
+z3xiKSDoZEI_160.000_170.000,scissors cloth table,A person carefully trims the excess fabric from a stitched piece of cloth using scissors.,0.6667,0.8294,0.8402,0.8348
+zUCZ4R0NNes_0.000_10.000,woman sofa,"A person is sleeping on a blue couch, wrapped in a striped blanket.",0.0,0.8458,0.894,0.8693
+zZU-PJA5Woo_30.000_40.000,band instruments,A group of bagpipers in traditional attire performs in front of a stone archway on a rainy day.,0.0,0.8134,0.8295,0.8214
+ze0vbGinCyY.54,men room table,A group of four men engage in a discussion around a table in a studio setting.,0.6667,0.8423,0.8329,0.8376
