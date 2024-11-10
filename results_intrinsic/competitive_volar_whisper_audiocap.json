@@ -1,0 +1,14 @@
+{
+    "valor_nonverbal": {
+        "avg_audiocap_rouge1_recall": 0.2111,
+        "avg_audiocap_bert_precision": 0.8213,
+        "avg_audiocap_bert_recall": 0.8494,
+        "avg_audiocap_bert_f1": 0.8349
+    },
+    "vast": {
+        "avg_audiocap_rouge1_recall": 0.1641,
+        "avg_audiocap_bert_precision": 0.8211,
+        "avg_audiocap_bert_recall": 0.8533,
+        "avg_audiocap_bert_f1": 0.8368
+    }
+}
