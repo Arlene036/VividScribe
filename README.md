@@ -96,6 +96,10 @@ python  python data_processing/extract_frame_and_wav_multiprocess.py
 >```
 
 ### Compute Metrics
+To evaluate CLIPScore, you first need to install CLIP with pip:
+```bash
+pip install git+https://github.com/openai/CLIP.git
+```
 
 ```
 bash eval.sh
