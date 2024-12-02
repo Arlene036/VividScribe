@@ -1,15 +1,21 @@
-basedir=$1
 
-# msrvtt vqa 
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8   --master_port 12711 ./train.py \
+#!/usr/bin/env python3
+basedir=$1
+# msrvtt vqa
+python3 ./train.py \
 --pretrain_dir $basedir \
---config ./config/VQA-msrvtt.json \
---output_dir $basedir'/VQA-msrvtt-lr2e-5-bs64-epoch5'   \
---learning_rate 2e-5  \
+--config ./config/VQA-11777.json \
+--output_dir $basedir'/VQA-11777-lr2e-5-bs64-epoch20-frozen-v-3'   \
+--learning_rate 1e-5  \
 --train_video_sample_num 4 \
 --test_video_sample_num 8  \
 --save_best true \
 --first_eval false  \
+--use_task_prompt true \
+--frozen_vision true \
+--beam_size_qa 3 \
+--max_generation_len 50
+
 
 
 #  msvd qa 
