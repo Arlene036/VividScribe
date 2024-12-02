@@ -690,7 +690,7 @@ def get_args():
     parser.add_argument('--valid_freq', type=int, default=10)
     parser.add_argument('--new_params_name', type=str, default=[], nargs='+') 
     parser.add_argument('--beam_size', type=int, default=3)
-    parser.add_argument('--beam_size_qa', type=int, default=1)
+    parser.add_argument('--beam_size_qa', type=int, default=3)
     parser.add_argument('--contra_dim', type=int, default=512)
     parser.add_argument('--label_smoothing', type=float, default=0.0)  
     
