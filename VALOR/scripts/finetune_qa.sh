@@ -2,17 +2,28 @@
 #!/usr/bin/env python3
 basedir=$1
 # msrvtt vqa
+lr=${2:-1e-5}
+bs=${3:-64}
+epoch=${4:-10}
+frozen=${5:-true}
+
+output_name="VQA-11777-lr${lr}-bs${bs}-epoch${epoch}"
+if [ "$frozen" = "true" ]; then
+    output_name="${output_name}-frozen-v-3"
+fi
+
 python3 ./train.py \
 --pretrain_dir $basedir \
 --config ./config/VQA-11777.json \
---output_dir $basedir'/VQA-11777-lr2e-5-bs64-epoch20-frozen-v-3'   \
---learning_rate 1e-5  \
+--output_dir "${basedir}/${output_name}" \
+--train_epoch $epoch \
+--learning_rate $lr \
 --train_video_sample_num 4 \
---test_video_sample_num 8  \
+--test_video_sample_num 8 \
 --save_best true \
---first_eval false  \
+--first_eval false \
 --use_task_prompt true \
---frozen_vision true \
+--frozen_vision $frozen \
 --beam_size_qa 3 \
 --max_generation_len 50
 
