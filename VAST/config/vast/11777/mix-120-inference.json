@@ -1,0 +1,33 @@
+{"run_cfg":
+  {"default":"./config/vast/default_run_cfg.json",
+    "mode":"testing"},
+  
+ "model_cfg":
+  {"default":"./config/vast/default_model_cfg.json"},
+
+  "data_cfg":         
+  
+    {
+        "train":{},
+
+        "val":                
+        [{
+            "type":"annoindexed",
+            "training":false,
+            "name": "mix-120",
+            "txt": "datasets/annotations/mix-120/descs_cap_test.json",
+            "vision": "datasets/srcdata/mix-120/videos",
+            "annfile": "datasets/annotations/mix-120/mix120_groundtruth.json",
+            "vision_format": "video_rawvideo",
+            "vision_sample_num": 8,
+            "audio_sample_num": 1,
+            "audio": "datasets/srcdata/mix-120/audios",
+            "task" : "cap%tva",
+            "n_workers": 1,
+            "batch_size": 64 
+        }]
+    }
+}
+
+            
+                    
