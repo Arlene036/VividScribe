@@ -1,5 +1,5 @@
-VIDEOPATH="/home/ec2-user/VividScribe/data/vast3k/frames_fps1/__aZILU6SqM.65"
-MODELDIR="/home/ec2-user/VividScribe/VALOR/output/VALOR_base"
+VIDEOPATH="/home/ubuntu/VividScribe/data/mix120/test120/Jk5dHnmduAg_320.000_330.000.mp4"
+MODELDIR="/home/ubuntu/VividScribe/VALOR/output/VALOR_large"
 
 python inference.py \
  --video_path $VIDEOPATH \

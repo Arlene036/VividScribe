@@ -22,7 +22,8 @@ import math
 import copy
 import torch
 from torch import nn
-from apex.normalization.fused_layer_norm import FusedLayerNorm as LayerNorm
+# from apex.normalization.fused_layer_norm import FusedLayerNorm as LayerNorm
+from torch.nn import LayerNorm
 import torch.nn.functional as F
 import ipdb
 

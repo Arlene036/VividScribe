@@ -151,11 +151,11 @@ class BertConfig(object):
         """Serializes this instance to a JSON string."""
         return json.dumps(self.to_dict(), indent=2, sort_keys=True) + "\n"
 
-try:
-    from apex.normalization.fused_layer_norm import FusedLayerNorm as BertLayerNorm
-except ImportError:
-    print("Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.")
-    class BertLayerNorm(nn.Module):
+# try:
+#     from apex.normalization.fused_layer_norm import FusedLayerNorm as BertLayerNorm
+# except ImportError:
+#     print("Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.")
+class BertLayerNorm(nn.Module):
         def __init__(self, hidden_size, eps=1e-12):
             """Construct a layernorm module in the TF style (epsilon inside the square root).
             """
