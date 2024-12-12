@@ -114,8 +114,17 @@ def validate_qa(model, eval_loader, task_str, opts, global_step, dset_name):
         if dist.get_rank() == 0:
             json.dump(generated_answers_t_va, open(os.path.join(output_dir, f'step{global_step}_tva_pred.json'), 'w'))
         accurate_num = sum([generated_answers_t_va[i] == groundtruth_answers[i] for i in range(total_num)])
+
         accuracy = accurate_num / total_num
         val_log['tva'] = {'accuracy': round(accuracy * 100, 2)}
+
+        from evaluate import load
+        # Load the ROUGE metric
+        import evaluate
+        rouge = evaluate.load('rouge')
+        groundtruth_answers_new = [[a] for a in groundtruth_answers]
+        results = rouge.compute(predictions=generated_answers_t_va, references=groundtruth_answers_new)
+        val_log['tva']["rougeL"] = results["rougeL"].item()
 
     if 'ta' in task:
         generated_answers_t_a = [i for j in all_gather_list(generated_answers_t_a) for i in j]

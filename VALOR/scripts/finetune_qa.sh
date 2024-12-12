@@ -5,14 +5,15 @@ basedir=$1
 python3 ./train.py \
 --pretrain_dir $basedir \
 --config ./config/VQA-11777.json \
---output_dir $basedir'/VQA-11777-lr2e-5-bs64-epoch20-frozen-v-3'   \
+--output_dir $basedir'/VQA-11777-lr2e-5-bs64-epoch20-frozen-bias'   \
 --learning_rate 1e-5  \
 --train_video_sample_num 4 \
 --test_video_sample_num 8  \
 --save_best true \
---first_eval false  \
+--first_eval True  \
 --use_task_prompt true \
 --frozen_vision true \
+--frozen_multimodal true \
 --beam_size_qa 3 \
 --max_generation_len 50
 
