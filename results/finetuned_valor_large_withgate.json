@@ -1,0 +1,23 @@
+{
+  "valor_nonverbal": {
+    "Bleu_1": 26.2,
+    "Bleu_2": 14.05,
+    "Bleu_3": 7.26,
+    "Bleu_4": 3.92,
+    "METEOR": 11.48,
+    "ROUGE_L": 22.85,
+    "CIDEr": 21.99
+  },
+  "vast": {
+    "Bleu_1": 21.21,
+    "Bleu_2": 12.36,
+    "Bleu_3": 7.85,
+    "Bleu_4": 5.05,
+    "METEOR": 9.11,
+    "ROUGE_L": 21.16,
+    "CIDEr": 3.18
+  }
+}
+
+## nonverbal: describe the video with natural language
+## verbal: f' describe the video with natural languag. The Audio transcript is "{subtitle}"'
