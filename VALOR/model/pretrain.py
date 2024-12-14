@@ -1053,6 +1053,7 @@ class VALOR(VALORModel):
         cache = {'key': {}, 'value': {}, 'attn_masks': None}
 
         outputs = []
+        word_reward = 0.8
         for t in range(max_generation_len):
 
             cur_beam_size = 1 if t == 0 else beam_size
@@ -1067,6 +1068,8 @@ class VALOR(VALORModel):
             word_logprob = word_logprob.view(batch_size, cur_beam_size, -1)
             candidate_logprob = seq_logprob + word_logprob
 
+            length_penalty = word_reward * t  # t is the current length of the sequence
+            candidate_logprob += length_penalty
             # Mask sequence if it reaches EOS
             if t > 0:
                 mask = (selected_words.view(batch_size, cur_beam_size) != self.eos_token).float().unsqueeze(-1)

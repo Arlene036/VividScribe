@@ -674,13 +674,18 @@ class VALORModel(VALORPreTrainedModel):
         self.text_masker = TokenMasker(mask_token = self.text_mask_token, range_start=106, range_end = 30522)
 
         if config.frozen_multimodal:
-            for k,v in self.multimodal_encoder.named_parameters():
+            for k, v in self.multimodal_encoder.named_parameters():
                 if 'encoder' in k and not 'cross' in k:
-                    v.requires_grad = False 
-                if 'embeddings' in k and any(j in k for j in ['embeddings.word_embeddings','embeddings.position_embeddings','embeddings.token_type_embeddings','embeddings.LayerNorm']):
-                    v.requires_grad = False 
-            for k,v in self.cls.named_parameters():
-                v.requires_grad = False 
+                    v.requires_grad = False
+                if 'bias' in k:
+                    v.requires_grad = True
+                if 'embeddings' in k and any(j in k for j in
+                                             ['embeddings.word_embeddings', 'embeddings.position_embeddings',
+                                              'embeddings.token_type_embeddings', 'embeddings.LayerNorm']):
+                    v.requires_grad = False
+
+            for k, v in self.cls.named_parameters():
+                v.requires_grad = True
 
 
     def construct_text_model(self,config):
@@ -765,5 +770,4 @@ class AudioEmbeddings(nn.Module):
         
 def trans(x):
     return torch.from_numpy(x)
-
 
